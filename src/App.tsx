@@ -7,6 +7,7 @@ import Header from './Header/Header';
 import WikiWomenPage from './Wiki-Women/WikiWomenPage';
 import AudioStoriesPage from './Audio-Stories/AudioStoriesPage';
 import ResumePage from "./Resume/ResumePage";
+import Footer from "./Footer/Footer";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                         <Route path='/projects/wiki-women' element={<WikiWomenPage/>}/>
                         <Route path='/projects/audio-stories' element={<AudioStoriesPage/>}/>
                     </Routes>
+                <Footer/>
             </Router>
         </div>
     );

@@ -2,11 +2,9 @@ import './ResumePageStyling.css';
 
 const ResumePage = () => {
     return (
-        <>
-            <div className="resume-page">
+        <div className="resume-page">
 
-            </div>
-        </>
+        </div>
     )
 }
 

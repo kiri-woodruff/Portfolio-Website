@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #34235e;
+    height: 75px;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    min-width: 100px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.header-name{
+    display: flex;
+    align-items: center;
+    font-size: 34px;
+
+}

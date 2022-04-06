@@ -1,0 +1,15 @@
+.footer img{
+    max-height: 40px;
+    width: 40px;
+    margin: 10px 40px;
+}
+
+.footer{
+    display: flex;
+    alignment: center;
+    width: 100%;
+    margin: 20px 0;
+    justify-content: center;
+    background-color: #9e8fc5;
+}
+
