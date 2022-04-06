@@ -1,0 +1,11 @@
+.about-page img{
+    max-height: 300px;
+}
+.about-page-content{
+    display: flex;
+    justify-content: center;
+}
+.about-page-content p{
+    max-width: 300px;
+    margin-left: 20px;
+}

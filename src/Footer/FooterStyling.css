@@ -7,9 +7,13 @@
 .footer{
     display: flex;
     alignment: center;
+    align-items: center;
     width: 100%;
     margin: 20px 0;
     justify-content: center;
     background-color: #9e8fc5;
+    border-bottom: 10px solid #34235e;
 }
+
+
 
