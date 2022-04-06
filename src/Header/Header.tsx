@@ -12,7 +12,7 @@ const Header = () => {
             <nav className='header-links'>
                 <Link to={'/about'}>About</Link>
                 <Link to={'/'}>Projects</Link>
-                <Link to={'/resume'}>Résumé</Link>
+                <Link to={'/resume'}>Resumé</Link>
             </nav>
         </div>
     )

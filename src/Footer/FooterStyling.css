@@ -8,11 +8,16 @@
     display: flex;
     alignment: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
     margin: 20px 0;
     justify-content: center;
     background-color: #9e8fc5;
     border-bottom: 10px solid #34235e;
+    padding-top: 10px;
+}
+.footer-icons{
+    display: flex;
 }
 
 

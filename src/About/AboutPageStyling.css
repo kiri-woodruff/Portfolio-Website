@@ -1,5 +1,5 @@
 .about-page img{
-    max-height: 300px;
+    max-height: 500px;
 }
 .about-page-content{
     display: flex;
@@ -8,4 +8,6 @@
 .about-page-content p{
     max-width: 300px;
     margin-left: 20px;
+    font-size: 24px;
 }
+
