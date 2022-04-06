@@ -1,0 +1,11 @@
+.wiki-women ul{
+    display: flex;
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+    list-style: none;
+}
+.wiki-women li{
+    margin-left: 15px;
+    margin-right: 15px;
+}

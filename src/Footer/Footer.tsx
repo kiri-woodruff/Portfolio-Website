@@ -1,7 +1,7 @@
 import './FooterStyling.css';
-import github from '../Images/github-logo.png';
-import email from '../Images/email.png';
-import linkedin from '../Images/linkedin-logo.png'
+import github from '../Assets/github-logo.png';
+import email from '../Assets/email.png';
+import linkedin from '../Assets/linkedin-logo.png'
 
 const Footer = () => {
     return (

@@ -3,13 +3,9 @@ import './AudioStoriesPageStyling.css'
 const AudioStoriesPage = () => {
     return (
         <div className='audio-stories'>
-            <h1>CCIM Audio Stories Platform</h1>
-            
-            <div>
+            <h1>Audio Stories Platform</h1>
 
-            </div>
-
-            <div className='tools-used'>
+            <div className='audio-stories-tools-used'>
                 <h2>
                     Tools Used
                 </h2>
