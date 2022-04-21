@@ -1,4 +1,4 @@
-import './ResumePageStyling.css';
+import './ResumePageStyling.scss';
 // @ts-ignore
 import resume from '../Assets/kiri-resume.pdf';
 

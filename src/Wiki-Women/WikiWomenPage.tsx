@@ -1,4 +1,4 @@
-import './WikiWomenPageStyling.css'
+import './WikiWomenPageStyling.scss'
 
 const WikiWomenPage = () => {
     return (

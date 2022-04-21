@@ -1,24 +1,21 @@
-import './AudioStoriesPageStyling.scss'
+import './CorpsApplicationStyling.scss'
 
-const AudioStoriesPage = () => {
+const CorpsApplicationPage = () => {
     return (
-        <div className='audio-stories'>
-            <h1>Audio Stories Platform</h1>
-
+        <div className='corps-application'>
+            <h1>Digital Corps Application Site</h1>
             <div className='tools-used'>
                 <h2>
                     Tools Used
                 </h2>
                 <ul>
-                    <li>Media Recorder API</li>
+                    <li>Angular</li>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>React JS/TS</li>
                 </ul>
             </div>
-
         </div>
     )
 }
 
-export default AudioStoriesPage;
+export default CorpsApplicationPage;

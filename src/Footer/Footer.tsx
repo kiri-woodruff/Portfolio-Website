@@ -1,4 +1,4 @@
-import './FooterStyling.css';
+import './FooterStyling.scss';
 import github from '../Assets/github-logo.png';
 import email from '../Assets/email.png';
 import linkedin from '../Assets/linkedin-logo.png'

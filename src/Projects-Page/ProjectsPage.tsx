@@ -1,7 +1,8 @@
-import './ProjectsPageStyling.css';
+import './ProjectsPageStyling.scss';
 import {Link} from "react-router-dom";
 import AudioStoriesAboutPhoto from '../Assets/AudioStories-About.png'
 import WikiWomenHomePhoto from '../Assets/WikiWomenHome.png'
+import ApplicationSitePhoto from '../Assets/ApplicationSite.png'
 
 const ProjectsPage = () => {
     return (
@@ -22,8 +23,8 @@ const ProjectsPage = () => {
                 </div>
                 <div className='project'>
                     <div className='background-color-box'>
-                        <Link to={'/projects/'}><img src={AudioStoriesAboutPhoto} height='200px' width='20%'/></Link>
-                        <Link to={'/projects/'} className='projects-page-buttons'>Third Project</Link>
+                        <Link to={'/projects/corps-application'}><img src={ApplicationSitePhoto} height='200px' width='20%'/></Link>
+                        <Link to={'/projects/corps-application'} className='projects-page-buttons'>Corps Application</Link>
                     </div>
                 </div>
 

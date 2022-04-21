@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import ProjectsPage from './Projects-Page/ProjectsPage';
 import AboutPage from './About/AboutPage';
@@ -8,6 +8,7 @@ import WikiWomenPage from './Wiki-Women/WikiWomenPage';
 import AudioStoriesPage from './Audio-Stories/AudioStoriesPage';
 import ResumePage from "./Resume/ResumePage";
 import Footer from "./Footer/Footer";
+import CorpsApplication from './Corps-Application/CorpsApplicationPage';
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                         <Route path='/resume' element={<ResumePage/>}/>
                         <Route path='/projects/wiki-women' element={<WikiWomenPage/>}/>
                         <Route path='/projects/audio-stories' element={<AudioStoriesPage/>}/>
+                        <Route path='/projects/corps-application' element={<CorpsApplication/>}/>
                     </Routes>
                 <Footer/>
             </Router>
