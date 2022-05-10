@@ -1,0 +1,8 @@
+.resume-page {
+  text-align: center;
+  @media(max-width: 1200px) {
+    iframe{
+      height: 500px;
+    }
+  }
+}

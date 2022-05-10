@@ -8,7 +8,7 @@ const ResumePage = () => {
         <div className="resume-page">
             <h1>Resumé</h1>
             <div>
-                <iframe src={`${resume}#view=fitH`} height='1000px' width='75%'/>
+                <iframe src={`${resume}#view=fitH`} height='1000px' width='60%'/>
             </div>
         </div>
     )
