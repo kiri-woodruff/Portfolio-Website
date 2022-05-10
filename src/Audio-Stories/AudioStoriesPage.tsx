@@ -15,12 +15,17 @@ const AudioStoriesPage = () => {
                     <li>CSS</li>
                     <li>React JS/TS</li>
                 </ul>
-                <p>
-                    Small Town * Big Art wanted a platform for the people of Maui to share their stories.
-
-                </p>
             </div>
-
+            <p>
+                <h3>Purpose</h3>
+                Small Town * Big Art wanted a platform for the people of Maui to share their stories.
+            </p>
+            <p>
+                <h3>What It Is</h3>
+            </p>
+            <p>
+                <h3>What I Did</h3>
+            </p>
         </div>
     )
 }
