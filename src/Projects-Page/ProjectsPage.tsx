@@ -2,7 +2,7 @@ import './ProjectsPageStyling.scss';
 import {Link} from "react-router-dom";
 import AudioStoriesAboutPhoto from '../Assets/AudioStories-About.png'
 import WikiWomenHomePhoto from '../Assets/WikiWomenHome.png'
-import ApplicationSitePhoto from '../Assets/ApplicationSite.png'
+import ApplicationHomePhoto from '../Assets/ApplicationHome.png'
 
 const ProjectsPage = () => {
     return (
@@ -23,7 +23,7 @@ const ProjectsPage = () => {
                 </div>
                 <div className='project'>
                     <div className='background-color-box'>
-                        <Link to={'/projects/corps-application'}><img className='application-site-photo' src={ApplicationSitePhoto} height='200px' width='20%'/></Link>
+                        <Link to={'/projects/corps-application'}><img className='application-site-photo' src={ApplicationHomePhoto} height='200px' width='20%'/></Link>
                         <Link to={'/projects/corps-application'} className='projects-page-buttons'>Corps Application</Link>
                     </div>
                 </div>
