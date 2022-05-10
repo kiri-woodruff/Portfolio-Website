@@ -5,7 +5,7 @@ import linkedin from '../Assets/linkedin-logo.png'
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <footer className="footer">
             <div>
                 Contact Me!
             </div>
@@ -20,7 +20,7 @@ const Footer = () => {
                     <img src={linkedin}/>
                 </a>
             </div>
-        </div>
+        </footer>
     )
 }
 

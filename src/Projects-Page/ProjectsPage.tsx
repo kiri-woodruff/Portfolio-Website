@@ -23,7 +23,7 @@ const ProjectsPage = () => {
                 </div>
                 <div className='project'>
                     <div className='background-color-box'>
-                        <Link to={'/projects/corps-application'}><img src={ApplicationSitePhoto} height='200px' width='20%'/></Link>
+                        <Link to={'/projects/corps-application'}><img className='application-site-photo' src={ApplicationSitePhoto} height='200px' width='20%'/></Link>
                         <Link to={'/projects/corps-application'} className='projects-page-buttons'>Corps Application</Link>
                     </div>
                 </div>
