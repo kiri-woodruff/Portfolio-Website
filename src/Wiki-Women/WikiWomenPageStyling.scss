@@ -32,7 +32,10 @@
     margin: 20px auto;
     font-size: 20px;
   }
-  @media (min-width: 700px) and (max-width: 1100px){
+  .whatIDid{
+    padding-bottom: 125px;
+  }
+  @media (min-width: 700px) and (max-width: 1500px){
     img{
      max-width: 45%;
       max-height: 40%;

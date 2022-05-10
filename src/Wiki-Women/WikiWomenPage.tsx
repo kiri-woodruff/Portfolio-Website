@@ -38,7 +38,7 @@ const WikiWomenPage = () => {
                     <img src={WikiWomenHomePhoto}/>
                     <img src={WikiWomenInfoPagePhoto}/>
                 </div>
-                <p>
+                <p className='whatIDid'>
                     <h3>What I Did</h3>
                     I was responsible for making the UI. In order to properly display the information, I had to research
                     how move between scenes in JavaFX

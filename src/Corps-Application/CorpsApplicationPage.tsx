@@ -14,6 +14,12 @@ const CorpsApplicationPage = () => {
                     <li>CSS</li>
                 </ul>
             </div>
+            <p>
+                <h3>What I Did</h3>
+                The Digital Corps wanted to update their application site so I was tasked with styling the page with the new design.
+                The site used an old version of Angular so I had to learn how to read the code that was already there and add to it
+                to fit our purposes.
+            </p>
         </div>
     )
 }
