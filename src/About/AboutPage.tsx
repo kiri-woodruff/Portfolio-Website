@@ -7,15 +7,17 @@ const AboutPage = () => {
             <h1>Hello there!</h1>
             <div className='about-page-content'>
                 <img src={kiriPhoto}/>
-                <p>
-                    I'm a Sophomore at Ball State University majoring in Computer Science with a minor in Sociology.
-                    <br/>
-                    <br/>
+                <p className='about-me'>
+                    <p>
+                    I'm a Junior at Ball State University majoring in Computer Science with a minor in Sociology.
+                    </p>
+                    <p>
                     I work at the Digital Corps at Ball State, where we work in interdisciplinary teams to create web
                     applications and other digital products for clients.
-                    <br/>
-                    <br/>
+                    </p>
+                    <p>
                     At the Digital Corps, I am currently a Development Apprentice.
+                    </p>
                 </p>
             </div>
         </div>

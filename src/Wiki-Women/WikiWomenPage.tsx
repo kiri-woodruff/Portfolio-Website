@@ -12,7 +12,6 @@ const WikiWomenPage = () => {
                     <li>Media Wiki API</li>
                     <li>Java</li>
                     <li>Java FX</li>
-                    <li>CSS</li>
                 </ul>
             </div>
         </div>
