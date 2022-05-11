@@ -16,8 +16,9 @@
     width: 40px;
     margin: 10px 40px;
   }
-
-
+  @media (max-width: 800px){
+    width: 100vw;
+  }
 }
 
 

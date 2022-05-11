@@ -8,7 +8,7 @@ import WikiWomenPage from './Wiki-Women/WikiWomenPage';
 import AudioStoriesPage from './Audio-Stories/AudioStoriesPage';
 import ResumePage from "./Resume/ResumePage";
 import Footer from "./Footer/Footer";
-import CorpsApplication from './Corps-Application/CorpsApplicationPage';
+import CorpsRecruitment from './Corps-Application/CorpsRecruitmentPage';
 
 function App() {
     return (
@@ -21,7 +21,7 @@ function App() {
                         <Route path='/resume' element={<ResumePage/>}/>
                         <Route path='/projects/wiki-women' element={<WikiWomenPage/>}/>
                         <Route path='/projects/audio-stories' element={<AudioStoriesPage/>}/>
-                        <Route path='/projects/corps-application' element={<CorpsApplication/>}/>
+                        <Route path='/projects/corps-recruitment' element={<CorpsRecruitment/>}/>
                     </Routes>
                 <Footer/>
             </Router>

@@ -1,4 +1,4 @@
-.corps-application{
+.corps-recruitment{
   h1{
     text-align: center;
   }
@@ -17,7 +17,7 @@
     margin-right: 15px;
   }
   img{
-    max-width: 30%;
+    width: 30%;
     max-height: 50vh;
     margin: auto;
     border: 1px solid black;
@@ -33,5 +33,21 @@
   }
   .whatIDid{
     padding-bottom: 125px;
+  }
+  @media (max-width: 1200px){
+    img{
+      margin-bottom: 5px;
+      width: 50%;
+      height: 50%;
+    }
+    .images{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 700px){
+    p{
+      text-align: center;
+    }
   }
 }
