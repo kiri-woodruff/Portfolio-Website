@@ -25,12 +25,6 @@ const AudioStoriesPage = () => {
                 Small Town * Big Art wanted a platform for the people of Maui to be able to share and record their
                 stories regarding their culture and heritage.
             </p>
-            <div className='images'>
-                <img src={AudioStoriesTopics}/>
-                <img src={AudioStoriesPrompt}/>
-                <img src={AudioStoriesSubmit}/>
-                <img src={AudioStoriesRecord}/>
-            </div>
             <p>
                 <h3>What It Is</h3>
                 There are QR codes placed around Maui that will lead to one of the seven topics: Diversity, Legacy,
@@ -42,6 +36,12 @@ const AudioStoriesPage = () => {
                 inspired to submit a story of their own. There are three different ways to submit a story: the user can
                 record an audio story, take a photo or video, or write a story.
             </p>
+            <div className='images'>
+                <img src={AudioStoriesTopics}/>
+                <img src={AudioStoriesPrompt}/>
+                <img src={AudioStoriesSubmit}/>
+                <img src={AudioStoriesRecord}/>
+            </div>
             <p className='whatIDid'>
                 <h3>What I Did</h3>
                 I was responsible for the functionality of swiping through the prompts and being able to record an audio
