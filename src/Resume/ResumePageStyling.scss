@@ -1,9 +1,10 @@
 .resume-page {
   text-align: center;
   padding-bottom: 125px;
-  @media(max-width: 1200px) {
+  @media(max-width: 1000px) {
     iframe{
       height: 500px;
+      width: 90%;
     }
   }
 }

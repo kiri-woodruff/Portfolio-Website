@@ -8,7 +8,7 @@
   background-color: #9e8fc5;
   border-bottom: 10px solid #34235e;
   padding-top: 10px;
-  bottom:0;
+  bottom: 0;
   position: fixed;
 
   img {
@@ -16,10 +16,16 @@
     width: 40px;
     margin: 10px 40px;
   }
-  @media (max-width: 800px){
-    width: 100vw;
+
+  @media (max-width: 360px) {
+    img {
+      width: 30px;
+      height: 30px;
+      margin: 10px 10px;
+    }
   }
 }
+
 
 
 

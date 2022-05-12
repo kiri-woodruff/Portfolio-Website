@@ -20,5 +20,43 @@
     .about-me{
         margin-top: 0;
     }
+    .whatIAm{
+        padding-bottom: 125px;
+    }
+    @media (min-width:360px) and (max-width: 700px){
+        img{
+            width: 100%;
+            height: 30%;
+        }
+        .about-page-content{
+            display: flex;
+            flex-direction: column;
+            img{
+                max-width: 50%;
+                margin: auto;
+            }
+            p{
+                max-width: 90%;
+                font-size: 22px;
+                margin: 10px auto;
+
+            }
+        }
+    }
+    @media (max-width: 360px){
+        .about-page-content {
+            display: flex;
+            flex-direction: column;
+            img{
+                max-width: 50%;
+                margin: auto;
+            }
+            p {
+                max-width: 90%;
+                font-size: 20px;
+                margin: 10px auto;
+            }
+        }
+    }
 }
 
