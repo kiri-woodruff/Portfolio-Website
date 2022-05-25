@@ -3,6 +3,7 @@ import AudioStoriesTopics from '../Assets/AudioStoriesTopics.png';
 import AudioStoriesPrompt from '../Assets/AudioStoriesPrompt.png';
 import AudioStoriesSubmit from '../Assets/AudioStoriesSubmit.png';
 import AudioStoriesRecord from '../Assets/AudioStoriesRecord.png';
+import {Link} from "react-router-dom";
 
 const AudioStoriesPage = () => {
     return (
@@ -42,7 +43,7 @@ const AudioStoriesPage = () => {
                 <img src={AudioStoriesSubmit}/>
                 <img src={AudioStoriesRecord}/>
             </div>
-            <p className='whatIDid'>
+            <p>
                 <h3>What I Did</h3>
                 I was responsible for the functionality of swiping through the prompts and being able to record an audio
                 story by utilizing the Media Recorder API.
@@ -51,6 +52,10 @@ const AudioStoriesPage = () => {
                 different media types, the continue the story page that displays the stories, the page with the different ways of
                 submitting a story, and the recording button.
             </p>
+            <div className='bottom-links'>
+                <Link to={"/projects/corps-recruitment"}>Corps Recruitment</Link>
+                <Link to={"/projects/wiki-women"}>Wiki Women</Link>
+            </div>
         </div>
     )
 }

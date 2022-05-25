@@ -32,8 +32,21 @@
     margin: 20px auto;
     font-size: 20px;
   }
-  .whatIDid{
+  .bottom-links {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 70%;
+    margin: auto;
     padding-bottom: 125px;
+    text-align: center;
+    a{
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: #34235e;
+    }
+    a:hover{
+      color: #9e8fc5;
+    }
   }
   @media (min-width: 700px) and (max-width: 1500px){
     img{
@@ -41,15 +54,15 @@
       max-height: 40%;
     }
   }
-  @media (max-width: 700px){
-    img{
+  @media (max-width: 700px) {
+    img {
       margin-bottom: 20px;
     }
-    .images{
+    .images {
       display: flex;
       flex-direction: column;
     }
-    p{
+    p {
       text-align: center;
     }
   }

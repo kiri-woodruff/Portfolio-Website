@@ -11,23 +11,22 @@ const ProjectsPage = () => {
             <div className='projects-page-projects'>
                 <div className='project'>
                     <div className='background-color-box'>
-                        <Link to={'/projects/audio-stories'}><img className='audio-stories-home-photo' src={AudioStoriesAboutPhoto} height='200px' width='20%'/></Link>
+                        <Link to={'/projects/audio-stories'}><img className='audio-stories-home-photo' src={AudioStoriesAboutPhoto}/></Link>
                         <Link to={'/projects/audio-stories'} className='projects-page-buttons'>Audio Stories</Link>
                     </div>
                 </div>
                 <div className='project'>
                     <div className='background-color-box'>
-                        <Link to={'/projects/wiki-women'}><img className='wiki-women-home-photo' src={WikiWomenHomePhoto} height='200px' width='20%'/></Link>
-                        <Link to={'/projects/wiki-women'} className='projects-page-buttons'>Wiki Women</Link>
+                        <Link to={'/projects/corps-recruitment'}><img className='application-site-photo' src={ApplicationHomePhoto}/></Link>
+                        <Link to={'/projects/corps-recruitment'} className='projects-page-buttons'>Corps Recruitment</Link>
                     </div>
                 </div>
                 <div className='project'>
                     <div className='background-color-box'>
-                        <Link to={'/projects/corps-recruitment'}><img className='application-site-photo' src={ApplicationHomePhoto} height='200px' width='20%'/></Link>
-                        <Link to={'/projects/corps-recruitment'} className='projects-page-buttons'>Corps Recruitment</Link>
+                        <Link to={'/projects/wiki-women'}><img className='wiki-women-home-photo' src={WikiWomenHomePhoto}/></Link>
+                        <Link to={'/projects/wiki-women'} className='projects-page-buttons'>Wiki Women</Link>
                     </div>
                 </div>
-
             </div>
         </div>
     )

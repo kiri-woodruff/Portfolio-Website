@@ -15,7 +15,7 @@ const AboutPage = () => {
                     I work at the Digital Corps at Ball State, where we work in interdisciplinary teams to create web
                     applications and other digital products for clients.
                     </p>
-                    <p className='whatIAm'>
+                    <p className='what-i-am'>
                     At the Digital Corps, I am currently a Development Apprentice.
                     </p>
                 </p>

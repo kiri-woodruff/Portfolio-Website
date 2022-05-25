@@ -37,8 +37,21 @@
     font-size: 20px;
   }
 
-  .whatIDid {
+  .bottom-links {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 70%;
+    margin: auto;
     padding-bottom: 125px;
+    text-align: center;
+    a{
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: #34235e;
+    }
+    a:hover{
+      color: #9e8fc5;
+    }
   }
 
   @media (min-width: 700px) and (max-width: 1500px) {
@@ -57,6 +70,12 @@
     }
     p{
       text-align: center;
+    }
+    .bottom-links{
+      max-width: 80%;
+      a{
+        margin-left: 20px;
+      }
     }
   }
 
