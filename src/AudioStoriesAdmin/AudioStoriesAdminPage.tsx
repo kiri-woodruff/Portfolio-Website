@@ -1,7 +1,9 @@
 import './AudioStoriesAdminPageStyling.scss'
 import {Link} from "react-router-dom";
 import {useLayoutEffect} from "react";
-
+import AudioStoriesAdminManageTopics from '../Assets/AudioStoriesAdminManageTopics.png';
+import AudioStoriesAdminLogin from '../Assets/AudioStoriesAdminLogin.png'
+;
 const AudioStoriesAdminPage = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
@@ -22,8 +24,8 @@ const AudioStoriesAdminPage = () => {
                 </div>
                 <p>
                     <h3>Purpose</h3>
-                    Small Town * Big Art wanted a platform for the people of Maui to be able to share and record their
-                    stories regarding their culture and heritage.
+                    Small Town * Big Art wanted a way to manage the stories submitted and edit the topics content. This included being able to add new
+                    prompts in the Talk section, adding new Go locations, and edit the stories submitted if necessary.
                 </p>
                 <p>
                     <h3>What It Is</h3>
@@ -37,7 +39,8 @@ const AudioStoriesAdminPage = () => {
                     record an audio story, take a photo or video, or write a story.
                 </p>
                 <div className='images'>
-
+                    <img className='topics-photo' src={AudioStoriesAdminManageTopics}/>
+                    <img className='login-photo' src={AudioStoriesAdminLogin}/>
                 </div>
                 <p>
                     <h3>What I Did</h3>
