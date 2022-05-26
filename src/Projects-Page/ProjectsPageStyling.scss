@@ -19,6 +19,13 @@
     margin: auto auto 50px;
     padding-left: 4px;
     padding-right: 4px;
+    transition: transform 250ms;
+    animation: moveInBottom 2s ease-out;
+    animation-fill-mode: backwards;
+  }
+
+  .project:hover{
+    transform: translateY(-20px);
   }
 
   .project img {
@@ -27,11 +34,25 @@
     display: flex;
     margin: auto;
     align-items: center;
+
+  }
+
+  @keyframes moveInBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
   }
 
   .audio-stories-home-photo {
     padding-top: 20px;
   }
+
 
   .wiki-women-home-photo {
     padding-top: 20px;
@@ -58,6 +79,7 @@
     padding: .4em;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   }
+
 
   .background-color-box {
     display: flex;

@@ -16,7 +16,7 @@ const AboutPage = () => {
                     applications and other digital products for clients.
                     </p>
                     <p className='what-i-am'>
-                    At the Digital Corps, I am currently a Development Apprentice.
+                    At the Digital Corps, I am currently a Development Apprentice and a Junior Project Manager.
                     </p>
                 </p>
             </div>

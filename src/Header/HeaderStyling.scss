@@ -7,11 +7,12 @@
 
   .header-links {
     display: flex;
+    height: 50%;
     align-items: center;
     justify-content: space-between;
-    width: 25%;
+    width: 30%;
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   a {
@@ -28,10 +29,10 @@
 
   .header-name {
     display: flex;
+    height: 50%;
     align-items: center;
     font-size: 34px;
     margin-left: 20px;
-
   }
 
   @media (min-width:401px) and (max-width: 700px) {
@@ -45,10 +46,11 @@
         font-size: 24px;
     }
     .header-links{
-      margin-right: 6em;
+      margin-right: 10px;
       font-size: 18px;
+      width: 50%;
       a{
-        margin-right: 10px;
+        margin-right: 6px;
       }
     }
   }
@@ -60,10 +62,10 @@
       margin-bottom: 3px;
     }
     .header-name{
-      font-size: 24px;
+      font-size: 23px;
     }
     .header-links{
-      margin-right: 6em;
+      margin-right: 5em;
       font-size: 16px;
       a{
         margin-right: 10px;
