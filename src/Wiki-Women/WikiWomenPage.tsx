@@ -2,8 +2,12 @@ import './WikiWomenPageStyling.scss'
 import WikiWomenHomePhoto from '../Assets/WikiWomenHome.png'
 import WikiWomenInfoPagePhoto from '../Assets/WikiWomenInfoPage.png'
 import {Link} from "react-router-dom";
+import {useLayoutEffect} from "react";
 
 const WikiWomenPage = () => {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
     return (
         <div className='wiki-women'>
             <h1>Wiki Women</h1>
@@ -49,6 +53,7 @@ const WikiWomenPage = () => {
                 </p>
                 <div className='bottom-links'>
                     <Link to={"/projects/audio-stories"}>Audio Stories</Link>
+                    <Link to={"/projects/audio-stories-admin"}>Audio Stories Admin</Link>
                     <Link to={"/projects/corps-recruitment"}>Corps Recruitment</Link>
                 </div>
             </div>

@@ -4,8 +4,13 @@ import AudioStoriesPrompt from '../Assets/AudioStoriesPrompt.png';
 import AudioStoriesSubmit from '../Assets/AudioStoriesSubmit.png';
 import AudioStoriesRecord from '../Assets/AudioStoriesRecord.png';
 import {Link} from "react-router-dom";
+import {useLayoutEffect} from "react";
 
 const AudioStoriesPage = () => {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
     return (
         <div className='audio-stories'>
             <h1>Audio Stories Platform</h1>
@@ -53,6 +58,7 @@ const AudioStoriesPage = () => {
                 submitting a story, and the recording button.
             </p>
             <div className='bottom-links'>
+                <Link to={"/projects/audio-stories-admin"}>Audio Stories Admin</Link>
                 <Link to={"/projects/corps-recruitment"}>Corps Recruitment</Link>
                 <Link to={"/projects/wiki-women"}>Wiki Women</Link>
             </div>

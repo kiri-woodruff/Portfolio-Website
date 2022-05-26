@@ -3,8 +3,12 @@ import ApplicationHomePhoto from '../Assets/ApplicationHome.png'
 import ApplicationApplyTeamsPhoto from '../Assets/ApplicationApplyTeams.png'
 import ApplicationApplyBottomPhoto from '../Assets/ApplicationApplyBottom.png'
 import {Link} from "react-router-dom";
+import {useLayoutEffect} from "react";
 
 const CorpsRecruitmentPage = () => {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
     return (
         <div className='corps-recruitment'>
             <h1>Digital Corps Recruitment</h1>
@@ -42,6 +46,7 @@ const CorpsRecruitmentPage = () => {
             </p>
             <div className='bottom-links'>
                 <Link to={"/projects/audio-stories"}>Audio Stories</Link>
+                <Link to={"/projects/audio-stories-admin"}>Audio Stories Admin</Link>
                 <Link to={"/projects/wiki-women"}>Wiki Women</Link>
             </div>
         </div>

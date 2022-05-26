@@ -21,17 +21,18 @@
     text-align: center;
   }
 
-  img{
+  img {
     max-height: 50vh;
     margin: auto;
     border: 1px solid black;
   }
-  .images{
+
+  .images {
     display: flex;
     justify-content: space-evenly;
   }
 
-  p{
+  p {
     max-width: 70%;
     margin: 20px auto;
     font-size: 20px;
@@ -44,12 +45,14 @@
     margin: auto;
     padding-bottom: 125px;
     text-align: center;
-    a{
+
+    a {
       font-size: 1.5rem;
       text-decoration: none;
       color: #34235e;
     }
-    a:hover{
+
+    a:hover {
       color: #9e8fc5;
     }
   }
@@ -68,12 +71,13 @@
       display: flex;
       flex-direction: column;
     }
-    p{
+    p {
       text-align: center;
     }
-    .bottom-links{
+    .bottom-links {
       max-width: 80%;
-      a{
+
+      a {
         margin-left: 20px;
       }
     }

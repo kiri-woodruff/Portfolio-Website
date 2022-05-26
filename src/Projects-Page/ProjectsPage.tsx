@@ -4,8 +4,12 @@ import AudioStoriesAboutPhoto from '../Assets/AudioStoriesAbout.png'
 import WikiWomenHomePhoto from '../Assets/WikiWomenHome.png'
 import ApplicationHomePhoto from '../Assets/ApplicationHome.png'
 import AudioStoriesAdminPhoto from '../Assets/AudioStoriesAdminDisplayPrompts.png'
+import {useLayoutEffect} from "react";
 
 const ProjectsPage = () => {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
     return (
         <div className="projects-page">
             <h1>Projects</h1>
@@ -18,8 +22,8 @@ const ProjectsPage = () => {
                 </div>
                 <div className='project'>
                     <div className='background-color-box'>
-                        <Link to={'/projects/audio-stories-admin-panel'}><img className='audio-stories-admin-home-photo' src={AudioStoriesAdminPhoto}/></Link>
-                        <Link to={'/projects/audio-stories-admin-panel'} className='projects-page-buttons'>Audio Stories Admin</Link>
+                        <Link to={'/projects/audio-stories-admin'}><img className='audio-stories-admin-home-photo' src={AudioStoriesAdminPhoto}/></Link>
+                        <Link to={'/projects/audio-stories-admin'} className='projects-page-buttons admin-button'>Audio Stories Admin</Link>
                     </div>
                 </div>
                 <div className='project'>
