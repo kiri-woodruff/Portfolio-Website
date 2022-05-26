@@ -1,6 +1,7 @@
 .projects-page {
   .projects-page-projects {
     display: flex;
+    flex-flow: row wrap;
   }
   h1{
     text-align: center;
@@ -20,7 +21,7 @@
   }
   .project img{
     max-width: 300px;
-    max-height: 260px;
+    max-height: 250px;
     display: flex;
     margin: auto;
     align-items: center;
@@ -36,6 +37,9 @@
 
   .application-site-photo{
     padding-top: 80px;
+  }
+  .audio-stories-admin-home-photo{
+    padding-top: 20px;
   }
 
   .projects-page-buttons {
@@ -62,11 +66,17 @@
     width: 340px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   }
+  .fix-footer{
+    padding-bottom: 100px;
+  }
   @media (min-width:700px) and (max-width: 1100px){
     .projects-page-projects{
       display: flex;
-      flex-direction: column;
+      flex-flow: row wrap;
       margin-bottom: 70px;
+    }
+    .fix-footer{
+      padding-bottom: 50px;
     }
 
   }
@@ -84,7 +94,6 @@
       max-width: 80%;
       max-height: 90%;
     }
-
     .wiki-women-home-photo{
       padding-top: 10px;
     }
@@ -99,6 +108,9 @@
     .projects-page-buttons {
       width: 60%;
       padding-bottom: .5em;
+    }
+    .fix-footer{
+      padding-bottom: 50px;
     }
   }
 }

@@ -1,8 +1,9 @@
 import './ProjectsPageStyling.scss';
 import {Link} from "react-router-dom";
-import AudioStoriesAboutPhoto from '../Assets/AudioStories-About.png'
+import AudioStoriesAboutPhoto from '../Assets/AudioStoriesAbout.png'
 import WikiWomenHomePhoto from '../Assets/WikiWomenHome.png'
 import ApplicationHomePhoto from '../Assets/ApplicationHome.png'
+import AudioStoriesAdminPhoto from '../Assets/AudioStoriesAdminDisplayPrompts.png'
 
 const ProjectsPage = () => {
     return (
@@ -13,6 +14,12 @@ const ProjectsPage = () => {
                     <div className='background-color-box'>
                         <Link to={'/projects/audio-stories'}><img className='audio-stories-home-photo' src={AudioStoriesAboutPhoto}/></Link>
                         <Link to={'/projects/audio-stories'} className='projects-page-buttons'>Audio Stories</Link>
+                    </div>
+                </div>
+                <div className='project'>
+                    <div className='background-color-box'>
+                        <Link to={'/projects/audio-stories-admin-panel'}><img className='audio-stories-admin-home-photo' src={AudioStoriesAdminPhoto}/></Link>
+                        <Link to={'/projects/audio-stories-admin-panel'} className='projects-page-buttons'>Audio Stories Admin</Link>
                     </div>
                 </div>
                 <div className='project'>
@@ -28,6 +35,7 @@ const ProjectsPage = () => {
                     </div>
                 </div>
             </div>
+            <div className='fix-footer'/>
         </div>
     )
 }

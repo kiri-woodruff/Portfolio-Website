@@ -9,6 +9,7 @@ import AudioStoriesPage from './Audio-Stories/AudioStoriesPage';
 import ResumePage from "./Resume/ResumePage";
 import Footer from "./Footer/Footer";
 import CorpsRecruitment from './Corps-Application/CorpsRecruitmentPage';
+import AudioStoriesAdminPage from "./AudioStoriesAdmin/AudioStoriesAdminPage";
 
 function App() {
     return (
@@ -19,9 +20,10 @@ function App() {
                         <Route path='/' element={<ProjectsPage/>}/>
                         <Route path='/about' element={<AboutPage/>}/>
                         <Route path='/resume' element={<ResumePage/>}/>
-                        <Route path='/projects/wiki-women' element={<WikiWomenPage/>}/>
                         <Route path='/projects/audio-stories' element={<AudioStoriesPage/>}/>
+                        <Route path='audio-stories-admin-panel' element={<AudioStoriesAdminPage/>}/>
                         <Route path='/projects/corps-recruitment' element={<CorpsRecruitment/>}/>
+                        <Route path='/projects/wiki-women' element={<WikiWomenPage/>}/>
                     </Routes>
                 <Footer/>
             </Router>

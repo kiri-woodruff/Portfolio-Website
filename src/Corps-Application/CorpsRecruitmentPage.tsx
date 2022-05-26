@@ -38,7 +38,7 @@ const CorpsRecruitmentPage = () => {
                 <h3>What I Did</h3>
                 I was a part of the groups that went to the events to recruit people. Since I was the only Development Team member on the project,
                 I updated the application site according to the Figma file designed by one of my coworkers. The application site used a very primitive
-                version of Angular, I had to learn how to read the files and how to edit them.
+                version of Angular, so I had to learn how to read the files and how to edit them.
             </p>
             <div className='bottom-links'>
                 <Link to={"/projects/audio-stories"}>Audio Stories</Link>
