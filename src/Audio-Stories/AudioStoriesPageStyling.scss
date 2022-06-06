@@ -46,28 +46,29 @@
     margin: auto;
     padding-bottom: 125px;
     text-align: center;
-
-    a {
-      font-size: 1.5rem;
-      text-decoration: none;
-      color: #34235e;
-    }
-
-    a:hover {
-      color: #9e8fc5;
-    }
+  }
+  a {
+    font-size: 1.4rem;
+    font-weight: 450;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #9e8fc5;
+    color: #34235e;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  a:hover {
+    box-shadow: inset 300px 0 0 0 #9e8fc5;
+    color: white;
   }
 
-  @media (min-width: 700px) and (max-width: 1500px) {
+  @media (min-width: 700px) and (max-width: 1200px) {
     img {
       max-width: 20%;
       max-height: 30%;
     }
-    .bottom-links{
-
-      a{
-        max-width: 30%;
-      }
+    a {
+      max-width: 30%;
     }
   }
   @media (max-width: 700px) {
@@ -84,8 +85,9 @@
     .bottom-links {
       max-width: 80%;
 
-      a {
-        margin-left: 20px;
+      a{
+        font-size: 1.2rem;
+        margin-left: 10px;
       }
     }
   }

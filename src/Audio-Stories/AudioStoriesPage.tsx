@@ -28,7 +28,7 @@ const AudioStoriesPage = () => {
             </div>
             <p>
                 <h3>Purpose</h3>
-                Small Town * Big Art wanted a platform for the people of Maui to be able to share and record their
+                <a href='https://stories.apsoprojects.org'>Small Town * Big Art</a> wanted a platform for the people of Maui to be able to share and record their
                 stories regarding their culture and heritage.
             </p>
             <p>
@@ -56,9 +56,11 @@ const AudioStoriesPage = () => {
                 pages that display the prompts and stories with
                 different media types, the continue the story page that displays the stories, the page with the different ways of
                 submitting a story, and the recording button.
+                Once we got to the admin part of the project, we realized that we needed to use a rich text editor so I was
+                responsible for editing the frontend to handle dangerously set inner HTML.
             </p>
             <div className='bottom-links'>
-                <Link to={"/projects/audio-stories-admin"}>Audio Stories Admin</Link>
+                <Link to={"/projects/audio-stories-admin"} className={'link hover-10'}>Audio Stories Admin</Link>
                 <Link to={"/projects/corps-recruitment"}>Corps Recruitment</Link>
                 <Link to={"/projects/wiki-women"}>Wiki Women</Link>
             </div>

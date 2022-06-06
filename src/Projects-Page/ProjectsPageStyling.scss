@@ -11,7 +11,7 @@
   .project {
     display: flex;
     flex-direction: column;
-    background-color: #34235e;
+    background-color: #9e8fc5;
     width: 360px;
     height: 360px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
@@ -22,6 +22,7 @@
     transition: transform 250ms;
     animation: moveInBottom 2s ease-out;
     animation-fill-mode: backwards;
+    border-radius: 10px;
   }
 
   .project:hover{
@@ -77,18 +78,6 @@
     height: 5%;
     margin: auto;
     padding: .4em;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  }
-
-
-  .background-color-box {
-    display: flex;
-    flex-direction: column;
-    z-index: 2;
-    background-color: #9e8fc5;
-    margin: auto;
-    height: 340px;
-    width: 340px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   }
 
