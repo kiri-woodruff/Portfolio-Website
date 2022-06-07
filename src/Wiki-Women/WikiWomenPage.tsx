@@ -8,6 +8,9 @@ const WikiWomenPage = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
+
+    document.title = 'Wiki Women';
+
     return (
         <div className='wiki-women'>
             <h1>Wiki Women</h1>

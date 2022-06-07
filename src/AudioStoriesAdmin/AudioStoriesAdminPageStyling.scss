@@ -89,10 +89,13 @@
     }
     .bottom-links {
       max-width: 80%;
-
       a{
         font-size: 1.2rem;
-        margin-left: 10px;
+        margin: 0;
+        padding: 0;
+      }
+      #WW{
+        margin-left: 5px;
       }
     }
   }

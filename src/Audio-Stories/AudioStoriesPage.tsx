@@ -11,6 +11,8 @@ const AudioStoriesPage = () => {
         window.scrollTo(0, 0)
     });
 
+    document.title = 'Audio Stories Platform';
+
     return (
         <div className='audio-stories'>
             <h1>Audio Stories Platform</h1>
@@ -22,7 +24,7 @@ const AudioStoriesPage = () => {
                 <ul>
                     <li>Media Recorder API</li>
                     <li>HTML</li>
-                    <li>CSS</li>
+                    <li>CSS/SCSS</li>
                     <li>React JS/TS</li>
                 </ul>
             </div>
@@ -56,13 +58,13 @@ const AudioStoriesPage = () => {
                 pages that display the prompts and stories with
                 different media types, the continue the story page that displays the stories, the page with the different ways of
                 submitting a story, and the recording button.
-                Once we got to the admin part of the project, we realized that we needed to use a rich text editor so I was
-                responsible for editing the frontend to handle dangerously set inner HTML.
+                Once we got to the admin part of the project we realized that we needed to use a rich text editor to edit submitted
+                stories, so I was responsible for editing the frontend to handle dangerously set inner HTML.
             </p>
             <div className='bottom-links'>
-                <Link to={"/projects/audio-stories-admin"} className={'link hover-10'}>Audio Stories Admin</Link>
-                <Link to={"/projects/corps-recruitment"}>Corps Recruitment</Link>
-                <Link to={"/projects/wiki-women"}>Wiki Women</Link>
+                <Link to={"/projects/audio-stories-admin"}>Audio Stories Admin</Link>
+                <Link to={"/projects/corps-recruitment"} id='CR'>Corps Recruitment</Link>
+                <Link to={"/projects/wiki-women"} id="WW">Wiki Women</Link>
             </div>
         </div>
     )

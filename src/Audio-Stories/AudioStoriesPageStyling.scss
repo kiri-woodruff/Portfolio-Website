@@ -87,7 +87,15 @@
 
       a{
         font-size: 1.2rem;
-        margin-left: 10px;
+        margin: 0;
+        padding: 0;
+      }
+      #CR{
+        margin-right: 10px ;
+      }
+      #WW{
+        margin-left: 5px;
+        margin-right: 10px;
       }
     }
   }

@@ -76,9 +76,13 @@
     p {
       text-align: center;
     }
-    a{
-      font-size: 1.2rem;
-      margin-left: 10px;
+    .bottom-links {
+      max-width: 80%;
+      a{
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+      }
     }
   }
 }

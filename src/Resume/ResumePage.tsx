@@ -4,6 +4,9 @@ import resume from '../Assets/kiri-resume.pdf';
 
 
 const ResumePage = () => {
+
+    document.title = 'Resumé';
+
     return (
         <div className="resume-page">
             <h1>Resumé</h1>

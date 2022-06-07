@@ -8,6 +8,9 @@ const AudioStoriesAdminPage = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
+
+    document.title = 'Audio Stories Admin Panel';
+
     return(
             <div className='audio-stories-admin'>
                 <h1>Audio Stories Admin Panel</h1>
@@ -29,14 +32,8 @@ const AudioStoriesAdminPage = () => {
                 </p>
                 <p>
                     <h3>What It Is</h3>
-                    There are QR codes placed around Maui that will lead to one of the seven topics: Diversity, Legacy,
-                    Tradition, Protection, Hope, Kuleana (Responsibility), or Belonging.
-                    On the topics page there are three different routes the user could take: Talk, Go, or Create. Talk is a
-                    way for the user to look through prompts about what story to share.
-                    Go features different places that the user can go to, learn about, or share a story about. Create is
-                    where the user can see other stories submitted by other uses and be
-                    inspired to submit a story of their own. There are three different ways to submit a story: the user can
-                    record an audio story, take a photo or video, or write a story.
+                    This is the admin panel for the Audio Stories Platform project where the clients wanted a way to edit the content
+                    on the website and see the analytics.
                 </p>
                 <div className='images'>
                     <img className='topics-photo' src={AudioStoriesAdminManageTopics}/>
@@ -53,8 +50,8 @@ const AudioStoriesAdminPage = () => {
                 </p>
                 <div className='bottom-links'>
                     <Link to={"/projects/audio-stories"}>Audio Stories</Link>
-                    <Link to={"/projects/corps-recruitment"}>Corps Recruitment</Link>
-                    <Link to={"/projects/wiki-women"}>Wiki Women</Link>
+                    <Link to={"/projects/corps-recruitment"} id="CR">Corps Recruitment</Link>
+                    <Link to={"/projects/wiki-women"} id="WW">Wiki Women</Link>
                 </div>
         </div>
     )

@@ -9,6 +9,9 @@ const CorpsRecruitmentPage = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
+
+    document.title = 'Corps Recruitment';
+
     return (
         <div className='corps-recruitment'>
             <h1>Digital Corps Recruitment</h1>
@@ -20,6 +23,7 @@ const CorpsRecruitmentPage = () => {
                     <li>Angular</li>
                     <li>HTML</li>
                     <li>CSS</li>
+                    <li>Moment.js</li>
                 </ul>
             </div>
             <p>
@@ -31,7 +35,7 @@ const CorpsRecruitmentPage = () => {
                 <h3>What It Is</h3>
                 Corps Recruitment was an internal Digital Corps project consisting of brainstorming sessions
                 of how to get more people to apply. We also went to activities within the Ball State campus to recruit people.
-                Through our efforts the number of applicants over doubled from the previous semester.
+                Through our efforts the number of applicants more than doubled from the previous semester.
             </p>
             <div className='images'>
                 <img src={ApplicationHomePhoto}/>
@@ -42,7 +46,9 @@ const CorpsRecruitmentPage = () => {
                 <h3>What I Did</h3>
                 I was a part of the groups that went to the events to recruit people. Since I was the only Development Team member on the project,
                 I updated the application site according to the Figma file designed by one of my coworkers. The application site used a very primitive
-                version of Angular, so I had to learn how to read the files and how to edit them.
+                version of Angular, so I had to learn how to read the files and how to edit them. I changed all of the team icons, added the application
+                disclaimer, and edited the admin panel. In the admin panel I added fields to include dates that were not there before. I also used Moment.js
+                to display specific fields based on whether it was before or after the current date.
             </p>
             <div className='bottom-links'>
                 <Link to={"/projects/audio-stories"}>Audio Stories</Link>
