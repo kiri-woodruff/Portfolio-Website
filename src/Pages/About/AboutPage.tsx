@@ -1,5 +1,5 @@
 import './AboutPageStyling.scss'
-import kiriPhoto from '../Assets/kiri-power-pose.jpg'
+import kiriPhoto from '../../Assets/kiri-power-pose.jpg'
 
 const AboutPage = () => {
 

@@ -1,6 +1,6 @@
 import './WikiWomenPageStyling.scss'
-import WikiWomenHomePhoto from '../Assets/WikiWomenHome.png'
-import WikiWomenInfoPagePhoto from '../Assets/WikiWomenInfoPage.png'
+import WikiWomenHomePhoto from '../../Assets/WikiWomenHome.png'
+import WikiWomenInfoPagePhoto from '../../Assets/WikiWomenInfoPage.png'
 import {Link} from "react-router-dom";
 import {useLayoutEffect} from "react";
 

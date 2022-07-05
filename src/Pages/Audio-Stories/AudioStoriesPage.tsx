@@ -1,8 +1,8 @@
 import './AudioStoriesPageStyling.scss'
-import AudioStoriesTopics from '../Assets/AudioStoriesTopics.png';
-import AudioStoriesPrompt from '../Assets/AudioStoriesPrompt.png';
-import AudioStoriesSubmit from '../Assets/AudioStoriesSubmit.png';
-import AudioStoriesRecord from '../Assets/AudioStoriesRecord.png';
+import AudioStoriesTopics from '../../Assets/AudioStoriesTopics.png';
+import AudioStoriesPrompt from '../../Assets/AudioStoriesPrompt.png';
+import AudioStoriesSubmit from '../../Assets/AudioStoriesSubmit.png';
+import AudioStoriesRecord from '../../Assets/AudioStoriesRecord.png';
 import {Link} from "react-router-dom";
 import {useLayoutEffect} from "react";
 

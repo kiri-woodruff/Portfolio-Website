@@ -1,7 +1,7 @@
 import './CorpsRecruitmentStyling.scss'
-import ApplicationHomePhoto from '../Assets/ApplicationHome.png'
-import ApplicationApplyTeamsPhoto from '../Assets/ApplicationApplyTeams.png'
-import ApplicationApplyBottomPhoto from '../Assets/ApplicationApplyBottom.png'
+import ApplicationHomePhoto from '../../Assets/ApplicationHome.png'
+import ApplicationApplyTeamsPhoto from '../../Assets/ApplicationApplyTeams.png'
+import ApplicationApplyBottomPhoto from '../../Assets/ApplicationApplyBottom.png'
 import {Link} from "react-router-dom";
 import {useLayoutEffect} from "react";
 

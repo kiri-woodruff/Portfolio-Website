@@ -1,8 +1,8 @@
 import './AudioStoriesAdminPageStyling.scss'
 import {Link} from "react-router-dom";
 import {useLayoutEffect} from "react";
-import AudioStoriesAdminManageTopics from '../Assets/AudioStoriesAdminManageTopics.png';
-import AudioStoriesAdminLogin from '../Assets/AudioStoriesAdminLogin.png'
+import AudioStoriesAdminManageTopics from '../../Assets/AudioStoriesAdminManageTopics.png';
+import AudioStoriesAdminLogin from '../../Assets/AudioStoriesAdminLogin.png'
 ;
 const AudioStoriesAdminPage = () => {
     useLayoutEffect(() => {

@@ -1,6 +1,6 @@
 import './ResumePageStyling.scss';
 // @ts-ignore
-import resume from '../Assets/kiri-resume.pdf';
+import resume from '../../Assets/kiri-resume.pdf';
 
 
 const ResumePage = () => {
