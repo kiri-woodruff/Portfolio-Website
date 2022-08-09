@@ -50,11 +50,6 @@ const CorpsRecruitmentPage = () => {
                 disclaimer, and edited the admin panel. In the admin panel I added fields to include dates that were not there before. I also used Moment.js
                 to display specific fields based on whether it was before or after the current date.
             </p>
-            <div className='bottom-links'>
-                <Link to={"/projects/audio-stories"}>Audio Stories</Link>
-                <Link to={"/projects/audio-stories-admin"}>Audio Stories Admin</Link>
-                <Link to={"/projects/wiki-women"}>Wiki Women</Link>
-            </div>
         </div>
     )
 }

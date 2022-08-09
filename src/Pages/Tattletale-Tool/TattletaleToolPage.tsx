@@ -1,28 +1,28 @@
-import './AudioStoriesPageStyling.scss'
-import AudioStoriesTopics from '../../Assets/AudioStoriesTopics.png';
-import AudioStoriesPrompt from '../../Assets/AudioStoriesPrompt.png';
-import AudioStoriesSubmit from '../../Assets/AudioStoriesSubmit.png';
-import AudioStoriesRecord from '../../Assets/AudioStoriesRecord.png';
-import {Link} from "react-router-dom";
+import './TattletaleToolPageStyling.scss'
 import {useLayoutEffect} from "react";
+import AudioStoriesTopics from "../../Assets/AudioStoriesTopics.png";
+import AudioStoriesPrompt from "../../Assets/AudioStoriesPrompt.png";
+import AudioStoriesSubmit from "../../Assets/AudioStoriesSubmit.png";
+import AudioStoriesRecord from "../../Assets/AudioStoriesRecord.png";
+import {Link} from "react-router-dom";
 
-const AudioStoriesPage = () => {
+function TattletaleToolPage(){
+
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
 
-    document.title = 'Audio Stories Platform';
+    document.title = 'The Loading Zone Website';
 
-    return (
-        <div className='audio-stories'>
-            <h1>Audio Stories Platform</h1>
+    return(
+        <div className='TLZWebsite'>
+            <h1>The Loading Zone National Distribution</h1>
 
             <div className='tools-used'>
                 <h2>
                     Tools Used
                 </h2>
                 <ul>
-                    <li>Media Recorder API</li>
                     <li>HTML</li>
                     <li>CSS/SCSS</li>
                     <li>React JS/TS</li>
@@ -65,4 +65,4 @@ const AudioStoriesPage = () => {
     )
 }
 
-export default AudioStoriesPage;
+export default TattletaleToolPage;

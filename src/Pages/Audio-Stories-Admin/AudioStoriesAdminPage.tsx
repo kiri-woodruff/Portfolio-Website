@@ -48,11 +48,6 @@ const AudioStoriesAdminPage = () => {
                     different media types, the continue the story page that displays the stories, the page with the different ways of
                     submitting a story, and the recording button.
                 </p>
-                <div className='bottom-links'>
-                    <Link to={"/projects/audio-stories"}>Audio Stories</Link>
-                    <Link to={"/projects/corps-recruitment"} id="CR">Corps Recruitment</Link>
-                    <Link to={"/projects/wiki-women"} id="WW">Wiki Women</Link>
-                </div>
         </div>
     )
 }

@@ -1,0 +1,20 @@
+.contact-me{
+  .footer-icons{
+    background-color: #9e8fc5;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    align-content: center;
+  }
+  img {
+    display: flex;
+    justify-content: center;
+    margin: 10px 40px;
+    max-width: 50%;
+  }
+  a{
+    display: flex;
+    justify-content: center;
+  }
+}
