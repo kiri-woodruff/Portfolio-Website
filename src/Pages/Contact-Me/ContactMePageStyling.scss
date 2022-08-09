@@ -1,17 +1,43 @@
 .contact-me{
+  h1{
+    text-align: center;
+  }
+  .positioning{
+   display: flex;
+    height: 50vh;
+    align-items: center;
+  }
   .footer-icons{
-    background-color: #9e8fc5;
+    background-color: grey;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     width: 50%;
     margin: auto;
     align-content: center;
+    border-radius: 20px;
+    padding: 25px 0;
   }
+  .links{
+    display: flex;
+    justify-content: center;
+    a{
+      width: 30%;
+    }
+  }
+  a{
+    color: black;
+    font-size: 2rem;
+    &:hover{
+      color: lightgrey;
+    }
+  }
+
   img {
     display: flex;
     justify-content: center;
     margin: 10px 40px;
-    max-width: 50%;
+    max-width: 30%;
   }
   a{
     display: flex;
