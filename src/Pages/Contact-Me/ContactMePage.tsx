@@ -13,7 +13,7 @@ function ContactMePage() {
                 <div className='footer-icons'>
                     <div>
                         <a href={"mailto: kiri@woodruffs.com"} target={"_blank"}>
-                            <p>kiri@woodruffs.com</p>
+                            <p>kiri.woodruff@gmail.com</p>
                         </a>
                     </div>
                     <div className='links'>

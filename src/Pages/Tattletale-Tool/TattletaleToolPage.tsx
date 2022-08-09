@@ -15,8 +15,8 @@ function TattletaleToolPage(){
     document.title = 'The Loading Zone Website';
 
     return(
-        <div className='TLZWebsite'>
-            <h1>The Loading Zone National Distribution</h1>
+        <div className='tattletale'>
+            <h1>Classroom Assurance Tool</h1>
 
             <div className='tools-used'>
                 <h2>
