@@ -39,6 +39,11 @@
     font-size: 20px;
   }
 
+  .what-i-did{
+    //padding-bottom: 50px;
+    margin-bottom: 0;
+  }
+
   @media (min-width: 700px) and (max-width: 1200px) {
     .images {
       display: flex;

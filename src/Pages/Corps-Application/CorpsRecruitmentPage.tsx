@@ -42,7 +42,7 @@ const CorpsRecruitmentPage = () => {
                 <img src={ApplicationApplyTeamsPhoto}/>
                 <img src={ApplicationApplyBottomPhoto}/>
             </div>
-            <p>
+            <p className='what-i-did'>
                 <h3>What I Did</h3>
                 I was a part of the groups that went to the events to recruit people. Since I was the only Development Team member on the project,
                 I updated the application site according to the Figma file designed by one of my coworkers. The application site used a very primitive

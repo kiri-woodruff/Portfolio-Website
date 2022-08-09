@@ -46,7 +46,7 @@ const WikiWomenPage = () => {
                     <img src={WikiWomenHomePhoto}/>
                     <img src={WikiWomenInfoPagePhoto}/>
                 </div>
-                <p>
+                <p className='what-i-did'>
                     <h3>What I Did</h3>
                     I was responsible for making the UI. In order to properly display the information, I had to research
                     how move between scenes in JavaFX
@@ -54,11 +54,6 @@ const WikiWomenPage = () => {
                     woman's
                     Wiki Data ID and the information page that displays the woman's information.
                 </p>
-                <div className='bottom-links'>
-                    <Link to={"/projects/audio-stories"}>Audio Stories</Link>
-                    <Link to={"/projects/audio-stories-admin"}>Audio Stories Admin</Link>
-                    <Link to={"/projects/corps-recruitment"}>Corps Recruitment</Link>
-                </div>
             </div>
         </div>
     )

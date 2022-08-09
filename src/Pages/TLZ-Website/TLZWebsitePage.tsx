@@ -50,7 +50,7 @@ function TLZWebsitePage(){
                 <img src={AudioStoriesSubmit}/>
                 <img src={AudioStoriesRecord}/>
             </div>
-            <p>
+            <p className='what-i-did'>
                 <h3>What I Did</h3>
                 I was responsible for the functionality of swiping through the prompts and being able to record an audio
                 story by utilizing the Media Recorder API.
