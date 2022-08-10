@@ -51,10 +51,14 @@ const AudioStoriesPage = () => {
                 </p>
             </div>
             <div className='images'>
-                <img src={AudioStoriesTopics}/>
-                <img src={AudioStoriesPrompt}/>
-                <img src={AudioStoriesSubmit}/>
-                <img src={AudioStoriesRecord}/>
+                <div className='image-container'>
+                    <img src={AudioStoriesTopics}/>
+                    <img src={AudioStoriesPrompt}/>
+                </div>
+                <div className='image-container'>
+                    <img src={AudioStoriesSubmit}/>
+                    <img src={AudioStoriesRecord}/>
+                </div>
             </div>
             <div className='what-i-did'>
                 <h3>What I Did</h3>

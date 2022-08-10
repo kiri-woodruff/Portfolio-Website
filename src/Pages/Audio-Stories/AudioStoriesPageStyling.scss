@@ -32,7 +32,12 @@
     justify-content: space-evenly;
   }
 
-  h3{
+  .image-container {
+    display: flex;
+    width: 50%;
+  }
+
+  h3 {
     max-width: 70%;
     margin: 20px auto;
     font-size: 1.4rem;
@@ -44,10 +49,11 @@
     font-size: 20px;
   }
 
-  .what-i-did{
+  .what-i-did {
     padding-bottom: 50px;
     margin-bottom: 0;
   }
+
   a {
     font-size: 1.4rem;
     font-weight: 450;
@@ -58,6 +64,7 @@
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   }
+
   a:hover {
     box-shadow: inset 300px 0 0 0 gray;
     color: white;
@@ -65,16 +72,19 @@
 
   @media (min-width: 700px) and (max-width: 1200px) {
     img {
-      max-width: 20%;
-      max-height: 30%;
+      max-width: 40%;
     }
     a {
       max-width: 30%;
     }
   }
   @media (max-width: 700px) {
+    .image-container{
+      width: 100%;
+    }
     img {
       margin-bottom: 20px;
+      max-width: 40%;
     }
     .images {
       display: flex;
