@@ -10,7 +10,7 @@ const AboutPage = () => {
             <h1>Hello there!</h1>
             <div className='about-page-content'>
                 <img src={kiriPhoto} alt={'Kiri Woodruff'}/>
-                <p className='about-me'>
+                <div className='about-me'>
                     <p>
                     I'm a Junior at Ball State University majoring in Computer Science with a minor in Sociology.
                     </p>
@@ -21,7 +21,7 @@ const AboutPage = () => {
                     <p className='what-i-am'>
                     At the Digital Corps, I am currently a Development Apprentice and a Junior Project Manager.
                     </p>
-                </p>
+                </div>
             </div>
         </div>
     )
