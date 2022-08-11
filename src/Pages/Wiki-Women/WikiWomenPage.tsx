@@ -1,18 +1,20 @@
 import './WikiWomenPageStyling.scss'
 import WikiWomenHomePhoto from '../../Assets/WikiWomenHome.png'
 import WikiWomenInfoPagePhoto from '../../Assets/WikiWomenInfoPage.png'
-import {Link} from "react-router-dom";
 import {useLayoutEffect} from "react";
+import {Helmet, HelmetProvider} from "react-helmet-async";
 
 const WikiWomenPage = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
-
-    document.title = 'Wiki Women';
-
     return (
         <div className='wiki-women'>
+            <HelmetProvider>
+                <Helmet>
+                    <title>Wiki Women</title>
+                </Helmet>
+            </HelmetProvider>
             <h1>Wiki Women</h1>
             <div className='wiki-women-tools-used'>
                 <h2>

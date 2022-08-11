@@ -2,16 +2,20 @@ import './AudioStoriesAdminPageStyling.scss'
 import {useLayoutEffect} from "react";
 import AudioStoriesAdminManageTopics from '../../Assets/AudioStoriesAdminManageTopics.png';
 import AudioStoriesAdminLogin from '../../Assets/AudioStoriesAdminLogin.png';
+import {Helmet, HelmetProvider} from 'react-helmet-async';
 
 const AudioStoriesAdminPage = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
 
-    document.title = 'Audio Stories Admin Panel';
-
     return (
         <div className='audio-stories-admin'>
+            <HelmetProvider>
+                <Helmet>
+                    <title>Audio Stories Admin Panel</title>
+                </Helmet>
+            </HelmetProvider>
             <h1>Audio Stories Admin Panel</h1>
 
             <div className='tools-used'>

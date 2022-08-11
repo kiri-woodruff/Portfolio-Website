@@ -1,12 +1,15 @@
 import './AboutPageStyling.scss'
 import kiriPhoto from '../../Assets/kiri-power-pose.jpg'
+import {Helmet, HelmetProvider} from 'react-helmet-async';
 
 const AboutPage = () => {
-
-    document.title = 'About';
-
     return (
         <div className='about-page'>
+            <HelmetProvider>
+                <Helmet>
+                    <title>About Me</title>
+                </Helmet>
+            </HelmetProvider>
             <h1>Hello there!</h1>
             <div className='about-page-content'>
                 <img src={kiriPhoto} alt={'Kiri Woodruff'}/>

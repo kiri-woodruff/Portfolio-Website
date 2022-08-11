@@ -4,16 +4,19 @@ import AudioStoriesPrompt from '../../Assets/AudioStoriesPrompt.png';
 import AudioStoriesSubmit from '../../Assets/AudioStoriesSubmit.png';
 import AudioStoriesRecord from '../../Assets/AudioStoriesRecord.png';
 import {useLayoutEffect} from "react";
+import {Helmet, HelmetProvider} from 'react-helmet-async';
 
 const AudioStoriesPage = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
-
-    document.title = 'Audio Stories Platform';
-
     return (
         <div className='audio-stories'>
+            <HelmetProvider>
+                <Helmet>
+                    <title>Audio Stories Platform</title>
+                </Helmet>
+            </HelmetProvider>
             <h1>Audio Stories Platform</h1>
 
             <div className='tools-used'>

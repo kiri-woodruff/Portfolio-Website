@@ -3,16 +3,19 @@ import ApplicationHomePhoto from '../../Assets/ApplicationHome.png'
 import ApplicationApplyTeamsPhoto from '../../Assets/ApplicationApplyTeams.png'
 import ApplicationApplyBottomPhoto from '../../Assets/ApplicationApplyBottom.png'
 import {useLayoutEffect} from "react";
+import {Helmet, HelmetProvider} from "react-helmet-async";
 
 const CorpsRecruitmentPage = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
-
-    document.title = 'Corps Recruitment';
-
     return (
         <div className='corps-recruitment'>
+            <HelmetProvider>
+                <Helmet>
+                    <title>Digital Corps Recruitment</title>
+                </Helmet>
+            </HelmetProvider>
             <h1>Digital Corps Recruitment</h1>
             <div className='tools-used'>
                 <h2>

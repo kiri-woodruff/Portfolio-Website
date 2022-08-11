@@ -1,17 +1,21 @@
 import './TLZWebsitePageStyling.scss'
 import {useLayoutEffect} from "react";
 import AudioStoriesTopics from "../../Assets/AudioStoriesTopics.png";
+import {Helmet, HelmetProvider} from "react-helmet-async";
+
 
 function TLZWebsitePage(){
 
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
-
-    document.title = 'The Loading Zone Website';
-
     return(
         <div className='TLZWebsite'>
+            <HelmetProvider>
+                <Helmet>
+                    <title>The Loading Zone</title>
+                </Helmet>
+            </HelmetProvider>
             <h1>The Loading Zone National Distribution</h1>
 
             <div className='tools-used'>

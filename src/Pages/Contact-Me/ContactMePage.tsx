@@ -2,10 +2,16 @@ import './ContactMePageStyling.scss'
 import github from '../../Assets/github-logo.png';
 import email from '../../Assets/email.png';
 import linkedin from '../../Assets/linkedin-logo.png'
+import {Helmet, HelmetProvider} from 'react-helmet-async';
 
 function ContactMePage() {
     return (
         <div className='contact-me'>
+            <HelmetProvider>
+                <Helmet>
+                    <title>Contact Me</title>
+                </Helmet>
+            </HelmetProvider>
             <div>
                 <h1>Contact Me!</h1>
             </div>

@@ -4,17 +4,20 @@ import Buildings from '../../Assets/ClassroomTabletBuildings.png';
 import Floors from '../../Assets/ClassroomTabletFloors.png';
 import Evaluation from '../../Assets/ClassroomTabletEvaluation.png';
 import Dashboard from '../../Assets/ClassroomTabletDashboard.png'
+import {Helmet, HelmetProvider} from "react-helmet-async";
 
 function TattletaleToolPage(){
 
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
-
-    document.title = 'The Loading Zone Website';
-
     return(
         <div className='tattletale'>
+            <HelmetProvider>
+                <Helmet>
+                    <title>Classroom Assurance Tool</title>
+                </Helmet>
+            </HelmetProvider>
             <h1>Classroom Assurance Tool</h1>
 
             <div className='tools-used'>

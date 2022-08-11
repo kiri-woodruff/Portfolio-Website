@@ -1,16 +1,20 @@
 import './ProjectsPageStyling.scss';
 import {Link} from "react-router-dom";
 import {useLayoutEffect} from "react";
+import {Helmet, HelmetProvider} from "react-helmet-async";
+
 
 const ProjectsPage = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
-
-    document.title = 'Projects';
-
     return (
         <div className="projects-page">
+            <HelmetProvider>
+                <Helmet>
+                    <title>Projects</title>
+                </Helmet>
+            </HelmetProvider>
             <h1>Projects</h1>
             <div className='projects-page-projects'>
                 <div className='project'>
