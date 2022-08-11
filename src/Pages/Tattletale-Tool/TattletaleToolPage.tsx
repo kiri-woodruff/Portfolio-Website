@@ -1,6 +1,9 @@
 import './TattletaleToolPageStyling.scss'
 import {useLayoutEffect} from "react";
-import AudioStoriesTopics from "../../Assets/AudioStoriesTopics.png";
+import Buildings from '../../Assets/ClassroomTabletBuildings.png';
+import Floors from '../../Assets/ClassroomTabletFloors.png';
+import Evaluation from '../../Assets/ClassroomTabletEvaluation.png';
+import Dashboard from '../../Assets/ClassroomTabletDashboard.png'
 
 function TattletaleToolPage(){
 
@@ -33,8 +36,14 @@ function TattletaleToolPage(){
               <p></p>
             </div>
             <div className='images'>
-                <img src={AudioStoriesTopics}/>
-
+                <div className='image-container'>
+                    <img src={Buildings}/>
+                    <img src={Floors}/>
+                </div>
+                <div className='image-container'>
+                    <img src={Evaluation}/>
+                    <img src={Dashboard}/>
+                </div>
             </div>
             <div className='what-i-did'>
                 <h3>What I Did</h3>
