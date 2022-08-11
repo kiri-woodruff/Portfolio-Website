@@ -1,11 +1,10 @@
 import './TLZWebsitePageStyling.scss'
 import {useLayoutEffect} from "react";
-import AudioStoriesTopics from "../../Assets/AudioStoriesTopics.png";
+import GridView from '../../Assets/LoadingZoneGridView.png';
+import ListView from '../../Assets/LoadingZoneListView.png'
 import {Helmet, HelmetProvider} from "react-helmet-async";
 
-
 function TLZWebsitePage(){
-
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
@@ -37,8 +36,8 @@ function TLZWebsitePage(){
                 <p></p>
             </div>
             <div className='images'>
-                <img src={AudioStoriesTopics}/>
-
+                <img src={GridView}/>
+                <img src={ListView}/>
             </div>
             <div className='what-i-did'>
                 <h3>What I Did</h3>

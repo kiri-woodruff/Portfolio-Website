@@ -1,4 +1,5 @@
 import './ResumePageStyling.scss';
+//@ts-ignore
 import resume from '../../Assets/kiri-resume.pdf';
 import {Helmet, HelmetProvider} from "react-helmet-async";
 
