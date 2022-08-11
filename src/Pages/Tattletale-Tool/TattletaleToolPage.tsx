@@ -5,6 +5,7 @@ import Floors from '../../Assets/ClassroomTabletFloors.png';
 import Evaluation from '../../Assets/ClassroomTabletEvaluation.png';
 import Dashboard from '../../Assets/ClassroomTabletDashboard.png'
 import {Helmet, HelmetProvider} from "react-helmet-async";
+import {motion} from "framer-motion";
 
 function TattletaleToolPage(){
 
@@ -12,7 +13,7 @@ function TattletaleToolPage(){
         window.scrollTo(0, 0)
     });
     return(
-        <div className='tattletale'>
+        <motion.div className='tattletale' initial={{opacity:0, x:100}} animate={{opacity:1, x:0}} exit={{opacity:0, x: -100}} transition={{duration: 0.5}}>
             <HelmetProvider>
                 <Helmet>
                     <title>Classroom Assurance Tool</title>
@@ -52,7 +53,7 @@ function TattletaleToolPage(){
                 <h3>What I Did</h3>
                <p></p>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

@@ -4,13 +4,14 @@ import ApplicationApplyTeamsPhoto from '../../Assets/ApplicationApplyTeams.png'
 import ApplicationApplyBottomPhoto from '../../Assets/ApplicationApplyBottom.png'
 import {useLayoutEffect} from "react";
 import {Helmet, HelmetProvider} from "react-helmet-async";
+import {motion} from "framer-motion";
 
 const CorpsRecruitmentPage = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
     return (
-        <div className='corps-recruitment'>
+        <motion.div className='corps-recruitment' initial={{opacity:0, x:100}} animate={{opacity:1, x:0}} exit={{opacity:0, x: -100}} transition={{duration: 0.5}}>
             <HelmetProvider>
                 <Helmet>
                     <title>Digital Corps Recruitment</title>
@@ -58,7 +59,7 @@ const CorpsRecruitmentPage = () => {
                 to display specific fields based on whether it was before or after the current date.
                 </p>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

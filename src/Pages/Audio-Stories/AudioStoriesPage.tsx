@@ -5,13 +5,14 @@ import AudioStoriesSubmit from '../../Assets/AudioStoriesSubmit.png';
 import AudioStoriesRecord from '../../Assets/AudioStoriesRecord.png';
 import {useLayoutEffect} from "react";
 import {Helmet, HelmetProvider} from 'react-helmet-async';
+import {motion} from "framer-motion";
 
 const AudioStoriesPage = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
     return (
-        <div className='audio-stories'>
+        <motion.div className='audio-stories' initial={{opacity:0, x:100}} animate={{opacity:1, x:0}} exit={{opacity:0, x: -100}} transition={{duration: 0.5}} >
             <HelmetProvider>
                 <Helmet>
                     <title>Audio Stories Platform</title>
@@ -79,7 +80,7 @@ const AudioStoriesPage = () => {
                     stories, so I was responsible for editing the frontend to handle dangerously set inner HTML.
                 </p>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

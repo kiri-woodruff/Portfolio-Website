@@ -3,10 +3,11 @@ import github from '../../Assets/github-logo.png';
 import email from '../../Assets/email.png';
 import linkedin from '../../Assets/linkedin-logo.png'
 import {Helmet, HelmetProvider} from 'react-helmet-async';
+import {motion} from "framer-motion";
 
 function ContactMePage() {
     return (
-        <div className='contact-me'>
+        <motion.div className='contact-me' initial={{opacity:0, x:100}} animate={{opacity:1, x:0}} exit={{opacity:0, x: -100}} transition={{duration: 0.5}} >
             <HelmetProvider>
                 <Helmet>
                     <title>Contact Me</title>
@@ -33,7 +34,7 @@ function ContactMePage() {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

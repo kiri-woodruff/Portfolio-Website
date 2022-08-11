@@ -3,6 +3,7 @@ import {useLayoutEffect} from "react";
 import AudioStoriesAdminManageTopics from '../../Assets/AudioStoriesAdminManageTopics.png';
 import AudioStoriesAdminLogin from '../../Assets/AudioStoriesAdminLogin.png';
 import {Helmet, HelmetProvider} from 'react-helmet-async';
+import {motion} from "framer-motion";
 
 const AudioStoriesAdminPage = () => {
     useLayoutEffect(() => {
@@ -10,7 +11,7 @@ const AudioStoriesAdminPage = () => {
     });
 
     return (
-        <div className='audio-stories-admin'>
+        <motion.div className='audio-stories-admin' initial={{opacity:0, x:100}} animate={{opacity:1, x:0}} exit={{opacity:0, x: -100}} transition={{duration: 0.5}} >
             <HelmetProvider>
                 <Helmet>
                     <title>Audio Stories Admin Panel</title>
@@ -54,7 +55,7 @@ const AudioStoriesAdminPage = () => {
 
                 </p>
             </div>
-        </div>
+        </motion.div>
     )
 }
 export default AudioStoriesAdminPage;

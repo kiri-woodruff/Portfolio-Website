@@ -3,13 +3,14 @@ import WikiWomenHomePhoto from '../../Assets/WikiWomenHome.png'
 import WikiWomenInfoPagePhoto from '../../Assets/WikiWomenInfoPage.png'
 import {useLayoutEffect} from "react";
 import {Helmet, HelmetProvider} from "react-helmet-async";
+import {motion} from "framer-motion";
 
 const WikiWomenPage = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
     return (
-        <div className='wiki-women'>
+        <motion.div className='wiki-women' initial={{opacity:0, x:100}} animate={{opacity:1, x:0}} exit={{opacity:0, x: -100}} transition={{duration: 0.5}}>
             <HelmetProvider>
                 <Helmet>
                     <title>Wiki Women</title>
@@ -57,7 +58,7 @@ const WikiWomenPage = () => {
                     Wiki Data ID and the information page that displays the woman's information.
                 </p>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

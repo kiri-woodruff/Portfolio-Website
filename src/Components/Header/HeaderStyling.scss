@@ -36,8 +36,8 @@
     margin-left: 20px;
   }
 
-  @media (min-width:401px) and (max-width: 700px) {
-   padding: 5px 0;
+  @media (min-width:550px) and (max-width: 850px) {
+
     a {
       width: 75%;
       text-align: center;
@@ -50,13 +50,14 @@
       margin-right: 10px;
       font-size: 18px;
       width: 50%;
+      //flex-direction: column;
       a{
         margin-right: 6px;
       }
     }
   }
-  @media (max-width: 400px){
-    padding: 5px 0;
+  @media (max-width: 550px){
+    height: 100px;
     a {
       width: 75%;
       text-align: center;
@@ -66,8 +67,11 @@
       font-size: 23px;
     }
     .header-links{
-      margin-right: 5em;
+      margin: 5px 0;
+      //margin-right: 5em;
+      height: auto;
       font-size: 16px;
+      flex-direction: column;
       a{
         margin-right: 10px;
       }
