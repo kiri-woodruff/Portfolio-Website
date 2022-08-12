@@ -29,6 +29,25 @@
         box-shadow: none;
       }
     }
+    .projects-page-buttons {
+      text-decoration: none;
+      text-align: center;
+      background-color: black;
+      z-index: 1;
+      color: white;
+      border-radius: 20px;
+      width: 50%;
+      height: 5%;
+      margin: auto;
+      padding: .4em;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    &:hover {
+      transform: translateY(-20px);
+    }
   }
 
   .audio-stories-home {
@@ -75,9 +94,7 @@
     height: 80%;
   }
 
-  .project:hover {
-    transform: translateY(-20px);
-  }
+
 
   @keyframes moveInBottom {
     0% {
@@ -91,21 +108,7 @@
     }
   }
 
-  .projects-page-buttons {
-    text-decoration: none;
-    text-align: center;
-    background-color: black;
-    z-index: 1;
-    color: white;
-    border-radius: 20px;
-    width: 50%;
-    height: 5%;
-    margin: auto;
-    padding: .4em;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    font-weight: 600;
-    font-size: 1rem;
-  }
+
 
   @media (min-width: 700px) and (max-width: 1100px) {
     .projects-page-projects {

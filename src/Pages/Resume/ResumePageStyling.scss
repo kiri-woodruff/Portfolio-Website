@@ -1,10 +1,33 @@
 .resume-page {
   text-align: center;
-  padding-bottom: 125px;
-  @media(max-width: 1000px) {
-    iframe{
-      height: 500px;
-      width: 90%;
+
+  .resume-iframe {
+    margin-top: 3.75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    iframe {
+      width: 60vw;
+      height: 70vw;
+      margin-bottom: 75px;
+    }
+  }
+
+  .resume-mobile{
+    display: none;
+  }
+
+  @media (max-width: 600px) {
+    .resume-iframe{
+      display: none;
+    }
+    .resume-mobile{
+      display: flex;
+      img{
+        max-width: 80%;
+        margin: auto;
+      }
     }
   }
 }

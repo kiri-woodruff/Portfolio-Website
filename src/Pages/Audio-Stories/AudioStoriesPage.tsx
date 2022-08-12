@@ -33,10 +33,10 @@ const AudioStoriesPage = () => {
                     <li>React JS/TS</li>
                 </ul>
             </div>
-            <div className='purpose'>
+            <div>
                 <h3>Purpose</h3>
                 <p>
-                    <a href='https://stories.apsoprojects.org' target="_blank">Small Town * Big Art</a> wanted a
+                    <a href='https://stories.apsoprojects.org' target="_blank" className='link-out'>Small Town * Big Art</a> wanted a
                     platform for the people of Maui to be able to share and record their
                     stories regarding their culture and heritage.
                 </p>

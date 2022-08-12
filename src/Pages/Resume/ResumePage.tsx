@@ -1,6 +1,7 @@
 import './ResumePageStyling.scss';
 //@ts-ignore
-import resume from '../../Assets/kiri-resume.pdf';
+import resumePDF from '../../Assets/kiri-resume.pdf';
+import resumePNG from '../../Assets/kiri-resume.png';
 import {Helmet, HelmetProvider} from "react-helmet-async";
 import {motion} from "framer-motion";
 
@@ -13,8 +14,11 @@ const ResumePage = () => {
                 </Helmet>
             </HelmetProvider>
             <h1>Resumé</h1>
-            <div>
-                <iframe src={`${resume}#view=fitH`} height='1000px' width='60%'/>
+            <div className='resume-iframe'>
+                <iframe src={`${resumePDF}`}/>
+            </div>
+            <div className='resume-mobile'>
+                <img src={resumePNG}/>
             </div>
         </motion.div>
     )
