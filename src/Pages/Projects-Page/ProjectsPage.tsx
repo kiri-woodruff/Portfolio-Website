@@ -27,12 +27,12 @@ const ProjectsPage = () => {
                         Stories Admin</Link>
                 </div>
                 <div className='project'>
-                    <Link to={'/projects/corps-recruitment'} className='application-site-home'/>
-                    <Link to={'/projects/corps-recruitment'} className='projects-page-buttons'>Corps Recruitment</Link>
-                </div>
-                <div className='project'>
                     <Link to={'/projects/classroom-assurance'} className='classroom-assurance-home'/>
                     <Link to={'/projects/classroom-assurance'} className='projects-page-buttons'>Classroom Assurance</Link>
+                </div>
+                <div className='project'>
+                    <Link to={'/projects/corps-recruitment'} className='application-site-home'/>
+                    <Link to={'/projects/corps-recruitment'} className='projects-page-buttons'>Corps Recruitment</Link>
                 </div>
                 <div className='project'>
                     <Link to={'/projects/tlz-website'} className='tlz-website-home'/>

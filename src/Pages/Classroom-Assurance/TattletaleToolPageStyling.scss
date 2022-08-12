@@ -23,12 +23,6 @@
     text-align: center;
   }
 
-  img {
-    max-width: 70vh;
-    margin: 10px auto;
-    border: 1px solid black;
-  }
-
   .images {
     display: flex;
     flex-direction: column;
@@ -38,7 +32,13 @@
       width: 100%;
       display: flex;
     }
+    img {
+      max-width: 70vh;
+      margin: 10px auto;
+      border: 1px solid black;
+    }
   }
+
   h3{
     max-width: 70%;
     margin: 20px auto;
@@ -50,32 +50,29 @@
     margin: 20px auto;
     font-size: 20px;
   }
-  .what-i-did{
-    padding-bottom: 50px;
-    margin-bottom: 0;
-  }
 
   @media (min-width: 700px) and (max-width: 1200px) {
-    img {
-      max-width: 45%;
-      max-height: 30%;
-    }
-    a {
-      max-width: 30%;
+    .images{
+      .image-container{
+        img {
+          max-width: 45%;
+          max-height: 30%;
+        }
+      }
     }
   }
   @media (max-width: 700px) {
-    img {
-      max-width: 80%;
 
-      margin-bottom: 20px;
-    }
     .images {
       display: flex;
       flex-direction: column;
       .image-container{
         display: flex;
         flex-direction: column;
+        img {
+          max-width: 80%;
+          margin-bottom: 20px;
+        }
       }
     }
     p {

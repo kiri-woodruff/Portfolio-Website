@@ -6,6 +6,8 @@ import Evaluation from '../../Assets/ClassroomTabletEvaluation.png';
 import Dashboard from '../../Assets/ClassroomTabletDashboard.png'
 import {Helmet, HelmetProvider} from "react-helmet-async";
 import {motion} from "framer-motion";
+import {Link} from "react-router-dom";
+import arrow from "../../Assets/arrow.svg";
 
 function TattletaleToolPage(){
 
@@ -49,9 +51,27 @@ function TattletaleToolPage(){
                     <img src={Dashboard}/>
                 </div>
             </div>
-            <div className='what-i-did'>
+            <div>
                 <h3>What I Did</h3>
                <p></p>
+            </div>
+            <div className='bottom-links'>
+                <div className='left-arrow'>
+                    <Link to={'/projects/audio-stories-admin'}>
+                        <div>
+                            <img src={arrow}/>
+                        </div>
+                        <label>Audio Stories Admin</label>
+                    </Link>
+                </div>
+                <div className='right-arrow'>
+                    <Link to={'/projects/corps-recruitment'}>
+                        <label>Corps Recruitment</label>
+                        <div>
+                            <img src={arrow}/>
+                        </div>
+                    </Link>
+                </div>
             </div>
         </motion.div>
     )

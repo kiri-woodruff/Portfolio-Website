@@ -4,6 +4,8 @@ import AudioStoriesAdminManageTopics from '../../Assets/AudioStoriesAdminManageT
 import AudioStoriesAdminLogin from '../../Assets/AudioStoriesAdminLogin.png';
 import {Helmet, HelmetProvider} from 'react-helmet-async';
 import {motion} from "framer-motion";
+import {Link} from "react-router-dom";
+import arrow from "../../Assets/arrow.svg";
 
 const AudioStoriesAdminPage = () => {
     useLayoutEffect(() => {
@@ -49,11 +51,29 @@ const AudioStoriesAdminPage = () => {
                 <img className='topics-photo' src={AudioStoriesAdminManageTopics}/>
                 <img className='login-photo' src={AudioStoriesAdminLogin}/>
             </div>
-            <div className='what-i-did'>
+            <div>
                 <h3>What I Did</h3>
                 <p>
 
                 </p>
+            </div>
+            <div className='bottom-links'>
+                <div className='left-arrow'>
+                    <Link to={'/projects/audio-stories'}>
+                        <div>
+                            <img src={arrow}/>
+                        </div>
+                        <label>Audio Stories Platform</label>
+                    </Link>
+                </div>
+                <div className='right-arrow'>
+                    <Link to={'/projects/classroom-assurance'}>
+                        <label>Classroom Assurance</label>
+                        <div>
+                            <img src={arrow}/>
+                        </div>
+                    </Link>
+                </div>
             </div>
         </motion.div>
     )

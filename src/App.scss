@@ -3,3 +3,100 @@
   min-height: 100vh;
   font-family: Raleway;
 }
+
+.bottom-links {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  .left-arrow {
+    a {
+      display: flex;
+      cursor: pointer;
+      padding-left: .5em;
+
+      &:hover {
+        box-shadow: inset 300px 0 0 0 gray;
+        color: white;
+      }
+
+      label {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+
+      div{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        img {
+          transform: rotate(270deg);
+          height: 40px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .right-arrow {
+    display: flex;
+
+    a {
+      display: flex;
+      cursor: pointer;
+      margin: 0;
+
+      &:hover {
+        box-shadow: inset -300px 0 0 0 gray;
+        color: white;
+      }
+
+      label {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        text-align: right;
+      }
+      div{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        img {
+          transform: rotate(90deg);
+          height: 40px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  @media (max-width: 480px) {
+   .left-arrow{
+     a{
+       padding-left: 0;
+       font-size: 1.2rem;
+     }
+   }
+    .right-arrow{
+      a{
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+a {
+  font-size: 1.4rem;
+  font-weight: 450;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 gray;
+  color: black;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+  &:hover {
+    box-shadow: inset 300px 0 0 0 gray;
+    color: white;
+  }
+}

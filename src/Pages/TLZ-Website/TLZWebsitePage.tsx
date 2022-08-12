@@ -4,6 +4,8 @@ import GridView from '../../Assets/LoadingZoneGridView.png';
 import ListView from '../../Assets/LoadingZoneListView.png'
 import {Helmet, HelmetProvider} from "react-helmet-async";
 import {motion} from "framer-motion";
+import {Link} from "react-router-dom";
+import arrow from "../../Assets/arrow.svg";
 
 function TLZWebsitePage(){
     useLayoutEffect(() => {
@@ -40,9 +42,27 @@ function TLZWebsitePage(){
                 <img src={GridView}/>
                 <img src={ListView}/>
             </div>
-            <div className='what-i-did'>
+            <div>
                 <h3>What I Did</h3>
               <p></p>
+            </div>
+            <div className='bottom-links'>
+                <div className='left-arrow'>
+                    <Link to={'/projects/corps-recruitment'}>
+                        <div>
+                            <img src={arrow} />
+                        </div>
+                        <label>Corps Recruitment</label>
+                    </Link>
+                </div>
+                <div className='right-arrow'>
+                    <Link to={'/projects/wiki-women'}>
+                        <label>Wiki Women</label>
+                        <div>
+                            <img src={arrow}/>
+                        </div>
+                    </Link>
+                </div>
             </div>
         </motion.div>
     )

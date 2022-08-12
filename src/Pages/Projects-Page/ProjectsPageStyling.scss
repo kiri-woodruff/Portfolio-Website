@@ -22,9 +22,16 @@
     animation-fill-mode: backwards;
     border-radius: 10px;
     border: 2px solid black;
+
+    a {
+      margin: 0;
+      &:hover {
+        box-shadow: none;
+      }
+    }
   }
 
-  .audio-stories-home{
+  .audio-stories-home {
     background: url("../../Assets/AudioStoriesAbout.png") no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -38,7 +45,7 @@
     height: 80%;
   }
 
-  .application-site-home{
+  .application-site-home {
     background: url("../../Assets/ApplicationHome.png") center no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -52,14 +59,14 @@
     height: 80%;
   }
 
-  .classroom-assurance-home{
+  .classroom-assurance-home {
     background: url("../../Assets/ClassroomLandingPage.png") center no-repeat;
     background-size: cover;
     overflow: hidden;
     height: 80%;
   }
 
-  .tlz-website-home{
+  .tlz-website-home {
     background: url("../../Assets/TLZ Logo.svg") center no-repeat;
     transform: translateX(22px);
     background-size: cover;
@@ -68,7 +75,7 @@
     height: 80%;
   }
 
-  .project:hover{
+  .project:hover {
     transform: translateY(-20px);
   }
 
@@ -97,11 +104,22 @@
     padding: .4em;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     font-weight: 600;
+    font-size: 1rem;
   }
 
   @media (min-width: 700px) and (max-width: 1100px) {
-    .project{
-      width: 360px;
+    .projects-page-projects {
+      .project {
+        width: 360px;
+
+        .projects-page-buttons {
+          margin: auto;
+        }
+      }
+      .tlz-website-home {
+        transform: translateX(3px);
+        width: 100%;
+      }
     }
   }
 
@@ -114,6 +132,11 @@
     .project {
       width: 300px;
       height: 300px;
+      .projects-page-buttons {
+        width: 60%;
+        padding-bottom: .8em;
+        margin: auto;
+      }
     }
 
     .project img {
@@ -121,17 +144,15 @@
       max-height: 90%;
     }
 
-    .projects-page-buttons {
-      width: 60%;
-      padding-bottom: .8em;
-    }
-    .tlz-website-home{
+
+    .tlz-website-home {
       background: url("../../Assets/TLZ Logo.svg") center no-repeat;
-      transform: translateX(5px);
+      transform: translateX(2px);
       background-size: cover;
       overflow: hidden;
       width: 100%;
       height: 80%;
     }
   }
+
 }

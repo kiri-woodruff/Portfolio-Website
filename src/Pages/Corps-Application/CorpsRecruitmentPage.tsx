@@ -5,6 +5,8 @@ import ApplicationApplyBottomPhoto from '../../Assets/ApplicationApplyBottom.png
 import {useLayoutEffect} from "react";
 import {Helmet, HelmetProvider} from "react-helmet-async";
 import {motion} from "framer-motion";
+import {Link} from "react-router-dom";
+import arrow from "../../Assets/arrow.svg";
 
 const CorpsRecruitmentPage = () => {
     useLayoutEffect(() => {
@@ -49,7 +51,7 @@ const CorpsRecruitmentPage = () => {
                 <img src={ApplicationApplyTeamsPhoto}/>
                 <img src={ApplicationApplyBottomPhoto}/>
             </div>
-            <div className='what-i-did'>
+            <div>
                 <h3>What I Did</h3>
                 <p>
                 I was a part of the groups that went to the events to recruit people. Since I was the only Development Team member on the project,
@@ -58,6 +60,24 @@ const CorpsRecruitmentPage = () => {
                 disclaimer, and edited the admin panel. In the admin panel I added fields to include dates that were not there before. I also used Moment.js
                 to display specific fields based on whether it was before or after the current date.
                 </p>
+            </div>
+            <div className='bottom-links'>
+                <div className='left-arrow'>
+                    <Link to={'/projects/classroom-assurance'}>
+                        <div>
+                            <img src={arrow}/>
+                        </div>
+                        <label>Classroom Assurance</label>
+                    </Link>
+                </div>
+                <div className='right-arrow'>
+                    <Link to={'/projects/tlz-website'}>
+                        <label>The Loading Zone</label>
+                        <div>
+                            <img src={arrow}/>
+                        </div>
+                    </Link>
+                </div>
             </div>
         </motion.div>
     )

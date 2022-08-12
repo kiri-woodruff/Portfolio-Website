@@ -12,7 +12,7 @@ import Footer from "./Components/Footer/Footer";
 import CorpsRecruitment from './Pages/Corps-Application/CorpsRecruitmentPage';
 import AudioStoriesAdminPage from "./Pages/Audio-Stories-Admin/AudioStoriesAdminPage";
 import TLZWebsite from './Pages/TLZ-Website/TLZWebsitePage';
-import TattletaleToolPage from "./Pages/Tattletale-Tool/TattletaleToolPage";
+import TattletaleToolPage from "./Pages/Classroom-Assurance/TattletaleToolPage";
 import {AnimatePresence} from "framer-motion";
 
 function App() {

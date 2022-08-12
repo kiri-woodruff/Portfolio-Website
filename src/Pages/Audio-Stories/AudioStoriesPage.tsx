@@ -6,6 +6,8 @@ import AudioStoriesRecord from '../../Assets/AudioStoriesRecord.png';
 import {useLayoutEffect} from "react";
 import {Helmet, HelmetProvider} from 'react-helmet-async';
 import {motion} from "framer-motion";
+import arrow from '../../Assets/arrow.svg'
+import {Link} from "react-router-dom";
 
 const AudioStoriesPage = () => {
     useLayoutEffect(() => {
@@ -31,7 +33,7 @@ const AudioStoriesPage = () => {
                     <li>React JS/TS</li>
                 </ul>
             </div>
-            <div>
+            <div className='purpose'>
                 <h3>Purpose</h3>
                 <p>
                     <a href='https://stories.apsoprojects.org' target="_blank">Small Town * Big Art</a> wanted a
@@ -64,7 +66,7 @@ const AudioStoriesPage = () => {
                     <img src={AudioStoriesRecord}/>
                 </div>
             </div>
-            <div className='what-i-did'>
+            <div>
                 <h3>What I Did</h3>
                 <p>
                     I was responsible for the functionality of swiping through the prompts and being able to record an
@@ -79,6 +81,24 @@ const AudioStoriesPage = () => {
                     edit submitted
                     stories, so I was responsible for editing the frontend to handle dangerously set inner HTML.
                 </p>
+            </div>
+            <div className='bottom-links'>
+                <div className='left-arrow'>
+                    <Link to={'/projects/wiki-women'} >
+                        <div>
+                            <img src={arrow}/>
+                        </div>
+                        <label>Wiki Women</label>
+                    </Link>
+                </div>
+                <div className='right-arrow'>
+                    <Link to={'/projects/audio-stories-admin'}>
+                        <label>Audio Stories Admin</label>
+                        <div>
+                            <img src={arrow}/>
+                        </div>
+                    </Link>
+                </div>
             </div>
         </motion.div>
     )
