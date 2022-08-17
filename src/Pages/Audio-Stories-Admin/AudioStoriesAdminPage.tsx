@@ -54,7 +54,7 @@ const AudioStoriesAdminPage = () => {
             <div>
                 <h3>What I Did</h3>
                 <p>
-
+                    I was responsible for displaying all of the existing prompts. I also made the login page and styled the forgot password page.
                 </p>
             </div>
             <div className='bottom-links'>
