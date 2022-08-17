@@ -32,11 +32,12 @@ function TLZWebsitePage(){
             </div>
             <div>
                 <h3>Purpose</h3>
-               <p></p>
+               <p>The Digital Corps wanted to get the Loading Zone episodes broadcast on PBS throughout the nation,
+                   so we were tasked with creating a way for other PBS stations to download episodes.</p>
             </div>
             <div>
                 <h3>What It Is</h3>
-                <p></p>
+                <p>The Loading Zone is a program that is created by the Digital Corps as a means of teaching children about different topics. </p>
             </div>
             <div className='images'>
                 <img src={GridView}/>
@@ -44,7 +45,9 @@ function TLZWebsitePage(){
             </div>
             <div>
                 <h3>What I Did</h3>
-              <p></p>
+              <p>I was tasked with creating the entire front end of the site. I styled the entire site with SCSS and used CSS transform and keyframes to animate the Loading Zone
+              doors to open and close between pages. I created the layout of displaying videos in the grid and list views and used a dialog box to display a
+              video player iframe to play the video after clicking on the video thumbnail. I made the login page that directed to where PBS employees could download videos.</p>
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
