@@ -1,18 +1,19 @@
 .about-page{
     text-align: center;
     img{
-        max-height: 500px;
+        max-height: 70vh;
     }
     .about-page-content{
         display: flex;
         justify-content: center;
+        max-width: 60%;
+        margin: auto;
     }
 
     p{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        max-width: 300px;
         margin-left: 20px;
         font-size: 24px;
         &:last-child{
@@ -21,16 +22,22 @@
     }
     .about-me{
         margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    @media (min-width:700px) and (max-width: 1150px){
+        .about-page-content{
+            max-width: 90%;
+        }
     }
 
+
     @media (min-width:360px) and (max-width: 700px){
-        img{
-            width: 100%;
-            height: 30%;
-        }
         .about-page-content{
             display: flex;
             flex-direction: column;
+            max-width: 80%;
             img{
                 max-width: 50%;
                 margin: auto;
@@ -40,21 +47,6 @@
                 font-size: 22px;
                 margin: 10px auto;
 
-            }
-        }
-    }
-    @media (max-width: 360px){
-        .about-page-content {
-            display: flex;
-            flex-direction: column;
-            img{
-                max-width: 50%;
-                margin: auto;
-            }
-            p {
-                max-width: 90%;
-                font-size: 20px;
-                margin: 10px auto;
             }
         }
     }

@@ -9,13 +9,14 @@ import {motion} from "framer-motion";
 import {Link} from "react-router-dom";
 import arrow from "../../Assets/arrow.svg";
 
-function TattletaleToolPage(){
+function TattletaleToolPage() {
 
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
-    return(
-        <motion.div className='tattletale' initial={{opacity:0, x:100}} animate={{opacity:1, x:0}} exit={{opacity:0, x: -100}} transition={{duration: 0.5}}>
+    return (
+        <motion.div className='tattletale' initial={{opacity: 0, x: 100}} animate={{opacity: 1, x: 0}}
+                    exit={{opacity: 0, x: -100}} transition={{duration: 0.5}}>
             <HelmetProvider>
                 <Helmet>
                     <title>Classroom Assurance Tool</title>
@@ -35,15 +36,19 @@ function TattletaleToolPage(){
             </div>
             <div>
                 <h3>Purpose</h3>
-                <p>The Ball State University administration wanted a way to keep their professors accountable going into the new school year and ensure they were consistently holding in-person classes.
+                <p>The Ball State University administration wanted a way to keep their professors accountable going into
+                    the new school year and ensure they were consistently holding in-person classes.
                 </p>
             </div>
             <div>
                 <h3>What It Is</h3>
-              <p>The Classroom Assurance tool is a web application that displays the all the in-session classes in each building by floor.
-              By selecting a class, an evaluator can submit an evaluation about if the class is being held, if the correct instructor is teaching,
-              and if the correct number of students are present. The application also has a dashboard to display the evaluation data for each professor
-              and each of their classes by section.</p>
+                <p>The Classroom Assurance tool is a web application that displays the all the in-session classes in
+                    each building by floor.
+                    By selecting a class, an evaluator can submit an evaluation about if the class is being held, if the
+                    correct instructor is teaching,
+                    and if the correct number of students are present. The application also has a dashboard to display
+                    the evaluation data for each professor
+                    and each of their classes by section.</p>
             </div>
             <div className='images'>
                 <div className='image-container'>
@@ -57,8 +62,9 @@ function TattletaleToolPage(){
             </div>
             <div>
                 <h3>What I Did</h3>
-               <p>I was responsible for doing the SCSS for the majority of the application. I styled the buildings, classes, confirmation, dashboard, and faculty report pages.
-               </p>
+                <p>I was responsible for doing the SCSS for the majority of the application. I styled the buildings,
+                    classes, confirmation, dashboard, and faculty report pages for both tablet and mobile.
+                </p>
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
