@@ -63,11 +63,11 @@ const CorpsRecruitmentPage = () => {
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
-                    <Link to={'/projects/classroom-assurance'}>
+                    <Link to={'/projects/audio-stories-admin'}>
                         <div>
                             <img src={arrow}/>
                         </div>
-                        <label>Classroom Assurance</label>
+                        <label>Audio Stories Admin</label>
                     </Link>
                 </div>
                 <div className='right-arrow'>
