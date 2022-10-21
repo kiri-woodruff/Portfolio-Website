@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 164 164" style="enable-background:new 0 0 164 164;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#231F20;}
-	.st1{font-family:'Raleway-Bold';}
-	.st2{font-size:81.64px;}
-	.st3{fill:none;stroke:#231F20;stroke-width:7;stroke-miterlimit:10;}
-</style>
-<text transform="matrix(0.94 0 0 1 16.8999 110.4601)" class="st0 st1 st2">K</text>
-<text transform="matrix(0.94 0 0 1 69.2427 110.4601)" class="st0 st1 st2">W</text>
-<circle class="st3" cx="82" cy="82" r="79.5"/>
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="50" cy="50" r="48.5" stroke="black" stroke-width="3"/>
+<path d="M12.7317 67V32.968H19.3557V49.144L33.6597 32.92H40.9557L27.8997 48.04L41.7717 67H34.3317L23.7237 52.264L19.3557 56.824V67H12.7317ZM56.6011 33.016H62.6971L66.5371 44.296L70.3771 33.016H76.5211L70.7131 48.52L75.0331 59.416L84.6811 32.92H91.8811L78.0091 67H72.4411L66.5371 52.696L60.6331 67H55.0651L41.2891 32.92H48.3931L58.0891 59.416L62.3131 48.52L56.6011 33.016Z" fill="black"/>
 </svg>
