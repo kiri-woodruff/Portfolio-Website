@@ -13,6 +13,7 @@ import CorpsRecruitment from './Pages/Corps-Application/CorpsRecruitmentPage';
 import AudioStoriesAdminPage from "./Pages/Audio-Stories-Admin/AudioStoriesAdminPage";
 import TLZWebsite from './Pages/TLZ-Website/TLZWebsitePage';
 import TattletaleToolPage from "./Pages/Classroom-Assurance/TattletaleToolPage";
+import HenryGetsMovingPage from "./Pages/Henry-Gets-Moving/HenryGetsMovingPage";
 import {AnimatePresence} from "framer-motion";
 
 function App() {
