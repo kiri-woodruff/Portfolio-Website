@@ -18,7 +18,7 @@ const ResumePage = () => {
                 <iframe src={`${resumePDF}`}/>
             </div>
             <div className='resume-mobile'>
-                <img src={resumePNG}/>
+                <iframe src={`${resumePDF}`}/>
             </div>
         </motion.div>
     )
