@@ -30,6 +30,7 @@ function App() {
                         <Route path='/projects/audio-stories' element={<AudioStoriesPage/>}/>
                         <Route path='/projects/audio-stories-admin' element={<AudioStoriesAdminPage/>}/>
                         <Route path='/projects/corps-recruitment' element={<CorpsRecruitment/>}/>
+                        <Route path='/projects/henry-gets-moving' element={<HenryGetsMovingPage/>}/>
                         <Route path='/projects/tlz-website' element={<TLZWebsite/>}/>
                         <Route path='/projects/classroom-assurance' element={<TattletaleToolPage/>}/>
                         <Route path='/projects/wiki-women' element={<WikiWomenPage/>}/>
