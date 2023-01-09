@@ -8,6 +8,7 @@ import HGMCalendar from '../../Assets/HenryGetsMovingCalendar.png'
 import HGMExercise from '../../Assets/HenryGetsMovingExercisePage.png'
 import HGMHome from '../../Assets/HenryGetsMovingHomePage.png'
 import HGMLog from '../../Assets/HenryGetsMovingLogExercise.png'
+import HGMAdmin from '../../Assets/HenryGetsMovingAdmin.png'
 
 const HenryGetsMovingPage = () => {
     useLayoutEffect(() => {
@@ -50,20 +51,28 @@ const HenryGetsMovingPage = () => {
                 </p>
             </div>
             <div className='images'>
-                <div className='image-container'>
-                    <img src={HGMHome}/>
-                    <img src={HGMExercise}/>
+                <div className='desktop-images'>
+                    <div className='image-container'>
+                        <img src={HGMHome}/>
+                        <img src={HGMExercise}/>
+                    </div>
+                    <div className='image-container'>
+                        <img src={HGMLog}/>
+                        <img src={HGMCalendar}/>
+                    </div>
                 </div>
                 <div className='image-container'>
-                    <img src={HGMLog}/>
-                    <img src={HGMCalendar}/>
+                    <img src={HGMAdmin}/>
                 </div>
             </div>
             <div>
                 <h3>What I Did</h3>
                 <p>
                     I was responsible for the design and look of the entire application where the client requested that
-                    the look be simple, colorful, and made for kids.
+                    the look be simple, colorful, and made for kids. I did all of the basic page layouts with TypeScript
+                    and did all the styling of the application using SCSS, including desktop, tablet, and mobile views.
+                    I was responsible for making the functional Hamburger menu and designing all of the trophy assets. I
+                    also designed the admin panel that is used to add, delete, or edit content on the application.
                 </p>
             </div>
             <div className='bottom-links'>
