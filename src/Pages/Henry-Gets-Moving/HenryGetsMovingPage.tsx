@@ -4,6 +4,10 @@ import {Helmet, HelmetProvider} from "react-helmet-async";
 import {motion} from "framer-motion";
 import {Link} from "react-router-dom";
 import arrow from "../../Assets/arrow.svg";
+import HGMCalendar from '../../Assets/HenryGetsMovingCalendar.png'
+import HGMExercise from '../../Assets/HenryGetsMovingExercisePage.png'
+import HGMHome from '../../Assets/HenryGetsMovingHomePage.png'
+import HGMLog from '../../Assets/HenryGetsMovingLogExercise.png'
 
 const HenryGetsMovingPage = () => {
     useLayoutEffect(() => {
@@ -26,6 +30,7 @@ const HenryGetsMovingPage = () => {
                     <li>React TS</li>
                     <li>HTML</li>
                     <li>CSS/SCSS</li>
+                    <li>Figma</li>
                 </ul>
             </div>
             <div>
@@ -45,20 +50,20 @@ const HenryGetsMovingPage = () => {
                 </p>
             </div>
             <div className='images'>
-
+                <div className='image-container'>
+                    <img src={HGMHome}/>
+                    <img src={HGMExercise}/>
+                </div>
+                <div className='image-container'>
+                    <img src={HGMLog}/>
+                    <img src={HGMCalendar}/>
+                </div>
             </div>
             <div>
                 <h3>What I Did</h3>
                 <p>
-                    I was a part of the groups that went to the events to recruit people. Since I was the only
-                    Development Team member on the project,
-                    I updated the application site according to the Figma file designed by one of my coworkers. The
-                    application site used a very primitive
-                    version of Angular, so I had to learn how to read the files and how to edit them. I changed all of
-                    the team icons, added the application
-                    disclaimer, and edited the admin panel. In the admin panel I added fields to include dates that were
-                    not there before. I also used Moment.js
-                    to display specific fields based on whether it was before or after the current date.
+                    I was responsible for the design and look of the entire application where the client requested that
+                    the look be simple, colorful, and made for kids.
                 </p>
             </div>
             <div className='bottom-links'>

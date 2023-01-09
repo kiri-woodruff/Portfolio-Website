@@ -1,4 +1,4 @@
-.henry-gets-moving{
+.henry-gets-moving {
   h1 {
     text-align: center;
   }
@@ -32,6 +32,17 @@
     }
   }
 
+  .image-container {
+    display: flex;
+    width: 50%;
+
+    img {
+      max-height: 50vh;
+      margin: auto;
+      border: 1px solid black;
+    }
+  }
+
   h3 {
     max-width: 70%;
     margin: 20px auto;
@@ -49,10 +60,20 @@
     .images {
       display: flex;
       flex-direction: column;
+
       img {
         margin-bottom: 5px;
         width: 80%;
         max-height: 100%;
+      }
+    }
+
+    .image-container {
+      width: 80%;
+      margin: auto;
+
+      img {
+        max-width: 40%;
       }
     }
   }
@@ -64,9 +85,18 @@
     .images {
       display: flex;
       flex-direction: column;
+
       img {
         width: 90%;
         margin-bottom: .7em;
+      }
+    }
+    .image-container {
+      width: 80%;
+      margin: auto;
+
+      img {
+        max-width: 40%;
       }
     }
   }
