@@ -67,8 +67,8 @@ const AudioStoriesAdminPage = () => {
                     </Link>
                 </div>
                 <div className='right-arrow'>
-                    <Link to={'/projects/corps-recruitment'}>
-                        <label>Corps Recruitment</label>
+                    <Link to={'/projects/classroom-assurance'}>
+                        <label>Classroom Assurance</label>
                         <div>
                             <img src={arrow}/>
                         </div>

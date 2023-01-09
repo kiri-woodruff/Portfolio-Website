@@ -23,21 +23,20 @@ const ProjectsPage = () => {
                 </div>
                 <div className='project'>
                     <Link to={'/projects/audio-stories-admin'} className='audio-stories-admin-home'/>
-                    <Link to={'/projects/audio-stories-admin'} className='projects-page-buttons admin-button'>Audio
-                        Stories Admin</Link>
+                    <Link to={'/projects/audio-stories-admin'} className='projects-page-buttons admin-button'>Audio Stories Admin</Link>
                 </div>
-                {/*<div className='project'>*/}
-                {/*    <Link to={'/projects/classroom-assurance'} className='classroom-assurance-home'/>*/}
-                {/*    <Link to={'/projects/classroom-assurance'} className='projects-page-buttons'>Classroom Assurance</Link>*/}
-                {/*</div>*/}
+                <div className='project'>
+                    <Link to={'/projects/classroom-assurance'} className='classroom-assurance-home'/>
+                    <Link to={'/projects/classroom-assurance'} className='projects-page-buttons'>Classroom Assurance</Link>
+                </div>
                 <div className='project'>
                     <Link to={'/projects/corps-recruitment'} className='application-site-home'/>
                     <Link to={'/projects/corps-recruitment'} className='projects-page-buttons'>Corps Recruitment</Link>
                 </div>
-                {/*<div className='project'>*/}
-                {/*    <Link to={'/projects/henry-gets-moving'} className='henry-site-home'/>*/}
-                {/*    <Link to={'/projects/henry-gets-moving'} className='projects-page-buttons'>Henry Gets Moving</Link>*/}
-                {/*</div>*/}
+                <div className='project'>
+                    <Link to={'/projects/henry-gets-moving'} className='henry-site-home'/>
+                    <Link to={'/projects/henry-gets-moving'} className='projects-page-buttons'>Henry Gets Moving</Link>
+                </div>
                 <div className='project'>
                     <Link to={'/projects/tlz-website'} className='tlz-website-home'/>
                     <Link to={'/projects/tlz-website'} className='projects-page-buttons'>The Loading Zone</Link>
