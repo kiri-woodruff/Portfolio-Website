@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
 import './HeaderStyling.scss';
+import Nav from "../Nav/Nav";
 
 const Header = () => {
     return (
@@ -15,6 +16,9 @@ const Header = () => {
                 <Link to={'/resume'}>Resumé</Link>
                 <Link to={'/contact-me'}>Contact</Link>
             </nav>
+            <div className='hamburger-menu'>
+                <Nav/>
+            </div>
         </div>
     )
 }
