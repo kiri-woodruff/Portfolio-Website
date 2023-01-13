@@ -6,8 +6,8 @@ const Header = () => {
     return (
         <div className="header">
             <nav className='header-links'>
-                <Link to={'/about'}>About</Link>
                 <Link to={'/'}>Projects</Link>
+                <Link to={'/about'}>About</Link>
                 <Link to={'/resume'}>Resumé</Link>
                 <Link to={'/contact-me'}>Contact</Link>
             </nav>
