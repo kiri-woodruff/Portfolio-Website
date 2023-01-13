@@ -1,11 +1,49 @@
 .projects-page {
+  background: linear-gradient(160deg, #101917, #808080, #f3f0ec);
+  background-size: 400% 100%;
+
+  animation: AnimationName 10s ease infinite;
+
   .projects-page-projects {
     display: flex;
     flex-flow: row wrap;
+
+  }
+
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
   }
 
   h1 {
     text-align: center;
+    color: white;
+  }
+
+  .intro {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: white;
+    font-size: 1.4rem;
+    animation: 1s ease-out 0s 1 intro-animation;
+  }
+
+  @keyframes intro-animation {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
   }
 
   .project {
@@ -26,10 +64,12 @@
     a {
       margin: 0;
       border-radius: 10px 10px 0 0;
+
       &:hover {
         box-shadow: none;
       }
     }
+
     .projects-page-buttons {
       text-decoration: none;
       text-align: center;
@@ -72,7 +112,7 @@
     height: 80%;
   }
 
-  .henry-site-home{
+  .henry-site-home {
     background: url("../../Assets/henry-gets-moving-home.jpg") center no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -103,7 +143,6 @@
   }
 
 
-
   @keyframes moveInBottom {
     0% {
       opacity: 0;
@@ -117,7 +156,6 @@
   }
 
 
-
   @media (min-width: 700px) and (max-width: 1100px) {
     .projects-page-projects {
       .project {
@@ -127,6 +165,7 @@
           margin: auto;
         }
       }
+
       .tlz-website-home {
         transform: translateX(3px);
         width: 100%;
@@ -143,6 +182,7 @@
     .project {
       width: 300px;
       height: 300px;
+
       .projects-page-buttons {
         width: 60%;
         padding-bottom: .8em;

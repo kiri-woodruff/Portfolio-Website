@@ -15,6 +15,9 @@ const ProjectsPage = () => {
                     <title>Projects</title>
                 </Helmet>
             </HelmetProvider>
+            <div className='intro'>
+                <p>Hello. I'm Kiri Woodruff and I'm a Frontend Web Developer</p>
+            </div>
             <h1>Projects</h1>
             <div className='projects-page-projects'>
                 <div className='project'>
