@@ -1,5 +1,5 @@
 .projects-page {
-  background: linear-gradient(160deg, #101917, #808080, #f3f0ec);
+  background: linear-gradient(160deg, #101917, #f3f0ec);
   background-size: 400% 100%;
 
   animation: AnimationName 10s ease infinite;
@@ -28,9 +28,9 @@
   }
 
   .intro {
-    width: 100%;
+    width: 80%;
     text-align: center;
-    margin: 0;
+    margin: auto;
     padding: 20px 0;
     color: white;
     font-size: 1.4rem;
@@ -157,6 +157,7 @@
 
 
   @media (min-width: 700px) and (max-width: 1100px) {
+    background-size: 1200% 100%;
     .projects-page-projects {
       .project {
         width: 360px;
@@ -174,6 +175,7 @@
   }
 
   @media (max-width: 700px) {
+    background-size: 2000% 100%;
     .projects-page-projects {
       display: flex;
       flex-direction: column;

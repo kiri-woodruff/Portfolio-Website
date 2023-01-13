@@ -1,15 +1,14 @@
 .header {
   display: flex;
-  justify-content: space-between;
   background-color: black;
   height: 75px;
   align-items: center;
+  justify-content: flex-end;
 
   .header-links {
     display: flex;
     height: 50%;
     align-items: center;
-    justify-content: space-between;
     width: 40%;
     margin-right: 10px;
     font-weight: 500;
