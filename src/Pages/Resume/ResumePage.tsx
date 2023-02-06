@@ -10,10 +10,10 @@ const ResumePage = () => {
         <motion.div className="resume-page" initial={{opacity:0, x:100}} animate={{opacity:1, x:0}} exit={{opacity:0, x: -100}} transition={{duration: 0.5}}>
             <HelmetProvider>
                 <Helmet>
-                    <title>Resumé</title>
+                    <title>Resume</title>
                 </Helmet>
             </HelmetProvider>
-            <h1>Resumé</h1>
+            <h1>Resume</h1>
             <div className='resume-iframe'>
                 <iframe src={`${resumePDF}`}/>
             </div>
