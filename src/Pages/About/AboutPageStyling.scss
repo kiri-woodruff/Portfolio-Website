@@ -1,54 +1,68 @@
-.about-page{
-    text-align: center;
+.about-page {
+  text-align: center;
+
+  .photo{
     img{
-        max-height: 70vh;
+      width: 100%;
     }
-    .about-page-content{
-        display: flex;
-        justify-content: center;
-        max-width: 60%;
+  }
+
+  .about-page-content {
+    display: flex;
+    justify-content: center;
+    max-width: 60%;
+    margin: auto;
+  }
+
+  p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    font-size: 24px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .about-me {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @media (min-width: 700px) and (max-width: 1150px) {
+    .about-page-content {
+      max-width: 90%;
+      flex-direction: column;
+    }
+    .photo{
+      width: 50%;
+      margin: auto;
+    }
+  }
+
+
+  @media (min-width: 360px) and (max-width: 700px) {
+    .about-page-content {
+      display: flex;
+      flex-direction: column;
+      max-width: 80%;
+
+      img {
+        max-width: 50%;
         margin: auto;
-    }
+      }
 
-    p{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-left: 20px;
-        font-size: 24px;
-        &:last-child{
-            margin-bottom: 0;
-        }
-    }
-    .about-me{
-        margin-top: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    @media (min-width:700px) and (max-width: 1150px){
-        .about-page-content{
-            max-width: 90%;
-        }
-    }
+      p {
+        max-width: 90%;
+        font-size: 22px;
+        margin: 10px auto;
 
-
-    @media (min-width:360px) and (max-width: 700px){
-        .about-page-content{
-            display: flex;
-            flex-direction: column;
-            max-width: 80%;
-            img{
-                max-width: 50%;
-                margin: auto;
-            }
-            p{
-                max-width: 90%;
-                font-size: 22px;
-                margin: 10px auto;
-
-            }
-        }
+      }
     }
+  }
 }
 
