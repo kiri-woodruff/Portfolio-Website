@@ -5,6 +5,9 @@ import Nav from "../Nav/Nav";
 const Header = () => {
     return (
         <div className="header">
+            <div className='header-name'>
+                <Link to={'/'}>Kiri Woodruff</Link>
+            </div>
             <nav className='header-links'>
                 <Link to={'/'}>Projects</Link>
                 <Link to={'/about'}>About</Link>
