@@ -1,7 +1,6 @@
 import './ResumePageStyling.scss';
 //@ts-ignore
 import resumePDF from '../../Assets/kiri-resume.pdf';
-import resumePNG from '../../Assets/kiri-resume.png';
 import {Helmet, HelmetProvider} from "react-helmet-async";
 import {motion} from "framer-motion";
 
