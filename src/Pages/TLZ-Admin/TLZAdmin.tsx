@@ -1,13 +1,12 @@
-import './TLZWebsitePageStyling.scss'
+import './TLZAdminStyling.scss'
 import {useLayoutEffect} from "react";
-import GridView from '../../Assets/LoadingZoneGridView.png';
-import ListView from '../../Assets/LoadingZoneListView.png'
 import {Helmet, HelmetProvider} from "react-helmet-async";
 import {motion} from "framer-motion";
 import {Link} from "react-router-dom";
 import arrow from "../../Assets/arrow.svg";
+import TLZAdminPic from '../../Assets/TLZAdmin.png'
 
-function TLZWebsitePage() {
+function TLZAdmin() {
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
     });
@@ -19,7 +18,7 @@ function TLZWebsitePage() {
                     <title>The Loading Zone</title>
                 </Helmet>
             </HelmetProvider>
-            <h1>The Loading Zone National Distribution</h1>
+            <h1>The Loading Zone National Distribution Admin Panel</h1>
 
             <div className='tools-used'>
                 <h2>
@@ -29,24 +28,23 @@ function TLZWebsitePage() {
                     <li>HTML</li>
                     <li>CSS/SCSS</li>
                     <li>React JS/TS</li>
-                    <li>Keyframes</li>
                     <li>Recharts Chart Library</li>
                     <li>Pigeon Maps Library</li>
                 </ul>
             </div>
             <div>
                 <h3>Purpose</h3>
-                <p>The Digital Corps wanted to get the Loading Zone episodes broadcast on PBS throughout the nation,
-                    so we were tasked with creating a way for other PBS stations to download episodes.</p>
+                <p>The Digital Corps wanted a way to add content to The Loading Zone National Distribution site.</p>
             </div>
             <div>
                 <h3>What It Is</h3>
-                <p>The Loading Zone is a program that is created by the Digital Corps as a means of teaching children
-                    about different topics. </p>
+                <p>This admin panel is a place where the user can add, edit, or delete a Loading Zone episode. The user
+                    can also view the statistics of users of the site that include seeing which PBS stations have
+                    downloaded episodes and what city and state they are in, viewing the 10 most downloaded episodes,
+                    and all the downloaded episodes by category.</p>
             </div>
             <div className='images'>
-                <img src={GridView}/>
-                <img src={ListView}/>
+                <img src={TLZAdminPic}/>
             </div>
             <div>
                 <h3>What I Did</h3>
@@ -60,16 +58,16 @@ function TLZWebsitePage() {
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
-                    <Link to={'/henry-gets-moving'}>
+                    <Link to={'/tlz-website'}>
                         <div>
                             <img src={arrow}/>
                         </div>
-                        <label>Henry Gets Moving</label>
+                        <label>The Loading Zone</label>
                     </Link>
                 </div>
                 <div className='right-arrow'>
-                    <Link to={'/tlz-admin'}>
-                        <label>TLZ Admin Panel</label>
+                    <Link to={'/wiki-women'}>
+                        <label>Wiki Women</label>
                         <div>
                             <img src={arrow}/>
                         </div>
@@ -80,4 +78,4 @@ function TLZWebsitePage() {
     )
 }
 
-export default TLZWebsitePage;
+export default TLZAdmin;

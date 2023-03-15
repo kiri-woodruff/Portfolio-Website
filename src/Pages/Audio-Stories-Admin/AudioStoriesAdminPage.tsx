@@ -59,7 +59,7 @@ const AudioStoriesAdminPage = () => {
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
-                    <Link to={'/projects/audio-stories'}>
+                    <Link to={'/audio-stories'}>
                         <div>
                             <img src={arrow}/>
                         </div>
@@ -67,7 +67,7 @@ const AudioStoriesAdminPage = () => {
                     </Link>
                 </div>
                 <div className='right-arrow'>
-                    <Link to={'/projects/classroom-assurance'}>
+                    <Link to={'/classroom-assurance'}>
                         <label>Classroom Assurance</label>
                         <div>
                             <img src={arrow}/>

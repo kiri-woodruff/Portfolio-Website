@@ -68,7 +68,7 @@ function TattletaleToolPage() {
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
-                    <Link to={'/projects/audio-stories-admin'}>
+                    <Link to={'/audio-stories-admin'}>
                         <div>
                             <img src={arrow}/>
                         </div>
@@ -76,7 +76,7 @@ function TattletaleToolPage() {
                     </Link>
                 </div>
                 <div className='right-arrow'>
-                    <Link to={'/projects/corps-recruitment'}>
+                    <Link to={'/corps-recruitment'}>
                         <label>Corps Recruitment</label>
                         <div>
                             <img src={arrow}/>

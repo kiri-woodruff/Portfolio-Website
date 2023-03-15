@@ -15,6 +15,7 @@ import TLZWebsite from './Pages/TLZ-Website/TLZWebsitePage';
 import TattletaleToolPage from "./Pages/Classroom-Assurance/TattletaleToolPage";
 import HenryGetsMovingPage from "./Pages/Henry-Gets-Moving/HenryGetsMovingPage";
 import {AnimatePresence} from "framer-motion";
+import TLZAdmin from "./Pages/TLZ-Admin/TLZAdmin";
 
 function App() {
     return (
@@ -27,13 +28,14 @@ function App() {
                         <Route path='/about' element={<AboutPage/>}/>
                         <Route path='/resume' element={<ResumePage/>}/>
                         <Route path='/contact-me' element={<ContactMe/>}/>
-                        <Route path='/projects/audio-stories' element={<AudioStoriesPage/>}/>
-                        <Route path='/projects/audio-stories-admin' element={<AudioStoriesAdminPage/>}/>
-                        <Route path='/projects/corps-recruitment' element={<CorpsRecruitment/>}/>
-                        <Route path='/projects/henry-gets-moving' element={<HenryGetsMovingPage/>}/>
-                        <Route path='/projects/tlz-website' element={<TLZWebsite/>}/>
-                        <Route path='/projects/classroom-assurance' element={<TattletaleToolPage/>}/>
-                        <Route path='/projects/wiki-women' element={<WikiWomenPage/>}/>
+                        <Route path='/audio-stories' element={<AudioStoriesPage/>}/>
+                        <Route path='/audio-stories-admin' element={<AudioStoriesAdminPage/>}/>
+                        <Route path='/corps-recruitment' element={<CorpsRecruitment/>}/>
+                        <Route path='/henry-gets-moving' element={<HenryGetsMovingPage/>}/>
+                        <Route path='/tlz-website' element={<TLZWebsite/>}/>
+                        <Route path='/tlz-admin' element={<TLZAdmin/>}/>
+                        <Route path='/classroom-assurance' element={<TattletaleToolPage/>}/>
+                        <Route path='/wiki-women' element={<WikiWomenPage/>}/>
                     </Routes>
                 </AnimatePresence>
                 {/*<Footer/>*/}

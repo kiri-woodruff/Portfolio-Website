@@ -63,7 +63,7 @@ const CorpsRecruitmentPage = () => {
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
-                    <Link to={'/projects/classroom-assurance'}>
+                    <Link to={'/classroom-assurance'}>
                         <div>
                             <img src={arrow}/>
                         </div>
@@ -71,7 +71,7 @@ const CorpsRecruitmentPage = () => {
                     </Link>
                 </div>
                 <div className='right-arrow'>
-                    <Link to={'/projects/henry-gets-moving'}>
+                    <Link to={'/henry-gets-moving'}>
                         <label>Henry Gets Moving</label>
                         <div>
                             <img src={arrow}/>

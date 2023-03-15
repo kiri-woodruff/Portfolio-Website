@@ -63,7 +63,7 @@ const WikiWomenPage = () => {
 
             <div className='bottom-links'>
                 <div className='left-arrow'>
-                    <Link to={'/projects/tlz-website'}>
+                    <Link to={'/tlz-website'}>
                         <div>
                             <img src={arrow}/>
                         </div>
@@ -71,7 +71,7 @@ const WikiWomenPage = () => {
                     </Link>
                 </div>
                 <div className='right-arrow'>
-                    <Link to={'/projects/audio-stories'}>
+                    <Link to={'/audio-stories'}>
                         <label>Audio Stories Platform</label>
                         <div>
                             <img src={arrow}/>

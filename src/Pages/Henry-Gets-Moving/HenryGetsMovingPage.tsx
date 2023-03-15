@@ -77,7 +77,7 @@ const HenryGetsMovingPage = () => {
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
-                    <Link to={'/projects/corps-recruitment'}>
+                    <Link to={'/corps-recruitment'}>
                         <div>
                             <img src={arrow}/>
                         </div>
@@ -85,7 +85,7 @@ const HenryGetsMovingPage = () => {
                     </Link>
                 </div>
                 <div className='right-arrow'>
-                    <Link to={'/projects/tlz-website'}>
+                    <Link to={'/tlz-website'}>
                         <label>The Loading Zone</label>
                         <div>
                             <img src={arrow}/>

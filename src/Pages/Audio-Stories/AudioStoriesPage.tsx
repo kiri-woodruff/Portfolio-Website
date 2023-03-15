@@ -84,7 +84,7 @@ const AudioStoriesPage = () => {
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
-                    <Link to={'/projects/wiki-women'} >
+                    <Link to={'/wiki-women'} >
                         <div>
                             <img src={arrow}/>
                         </div>
@@ -92,7 +92,7 @@ const AudioStoriesPage = () => {
                     </Link>
                 </div>
                 <div className='right-arrow'>
-                    <Link to={'/projects/audio-stories-admin'}>
+                    <Link to={'/audio-stories-admin'}>
                         <label>Audio Stories Admin</label>
                         <div>
                             <img src={arrow}/>
