@@ -48,13 +48,10 @@ function TLZAdmin() {
             </div>
             <div>
                 <h3>What I Did</h3>
-                <p>I was tasked with working on the front end of the site. I styled the entire site with SCSS and used
-                    CSS transform and keyframes to animate the Loading Zone doors to open when entering the episodes
-                    page. I added the credits section of the home page that used the API from our employee database to
-                    map through all the workers that have worked her, and slice them to a limit of 40 people per page on
-                    desktop and 20 on mobile. I created the layout of displaying videos in the grid and list views and
-                    used a dialog box to display a video player iframe to play the video after clicking on the video
-                    thumbnail. I made the login page that directed to where PBS employees could download videos. </p>
+                <p>I was tasked with styling the entire admin panel. For the statistics I used the Pigeon Maps library
+                    to display the United States and show where the PBS stations are that have downloaded episodes using
+                    markers. For the episodes download by category, I used the Recharts Library to display the episodes
+                    downloaded by category.</p>
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
