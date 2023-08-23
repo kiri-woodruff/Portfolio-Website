@@ -31,7 +31,6 @@ const MakeMyMove = () => {
                     <li>JavaScript</li>
                     <li>CSS</li>
                     <li>Next.js</li>
-                    <li>Figma</li>
                 </ul>
             </div>
             <div>
