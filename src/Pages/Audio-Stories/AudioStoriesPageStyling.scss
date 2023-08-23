@@ -21,16 +21,6 @@
     }
   }
 
-  .link-out{
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-    box-shadow: inset 0 0 0 0 gray;
-    &:hover {
-      box-shadow: inset 300px 0 0 0 gray;
-      color: white;
-    }
-  }
-
-
   .images {
     display: flex;
     justify-content: space-evenly;

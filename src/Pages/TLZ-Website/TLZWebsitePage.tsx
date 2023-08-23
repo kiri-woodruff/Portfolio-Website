@@ -58,11 +58,11 @@ function TLZWebsitePage() {
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
-                    <Link to={'/henry-gets-moving'}>
+                    <Link to={'/makemymove'}>
                         <div>
                             <img src={arrow}/>
                         </div>
-                        <label>Henry Gets Moving</label>
+                        <label>MakeMyMove</label>
                     </Link>
                 </div>
                 <div className='right-arrow'>

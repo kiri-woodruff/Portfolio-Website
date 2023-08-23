@@ -40,6 +40,10 @@ const ProjectsPage = () => {
                     <Link to={'/henry-gets-moving'} className='projects-page-buttons'>Henry Gets Moving</Link>
                 </div>
                 <div className='project'>
+                    <Link to={'/makemymove'} className='mmm-site-home'/>
+                    <Link to={'/makemymove'} className='projects-page-buttons'>MakeMyMove</Link>
+                </div>
+                <div className='project'>
                     <Link to={'/tlz-website'} className='tlz-website-home'/>
                     <Link to={'/tlz-website'} className='projects-page-buttons'>The Loading Zone</Link>
                 </div>

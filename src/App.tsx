@@ -16,6 +16,7 @@ import TattletaleToolPage from "./Pages/Classroom-Assurance/TattletaleToolPage";
 import HenryGetsMovingPage from "./Pages/Henry-Gets-Moving/HenryGetsMovingPage";
 import {AnimatePresence} from "framer-motion";
 import TLZAdmin from "./Pages/TLZ-Admin/TLZAdmin";
+import MakeMyMove from "./Pages/MakeMyMove/makemymove";
 
 function App() {
     return (
@@ -32,6 +33,7 @@ function App() {
                         <Route path='/audio-stories-admin' element={<AudioStoriesAdminPage/>}/>
                         <Route path='/corps-recruitment' element={<CorpsRecruitment/>}/>
                         <Route path='/henry-gets-moving' element={<HenryGetsMovingPage/>}/>
+                        <Route path='/makemymove' element={<MakeMyMove/>}/>
                         <Route path='/tlz-website' element={<TLZWebsite/>}/>
                         <Route path='/tlz-admin' element={<TLZAdmin/>}/>
                         <Route path='/classroom-assurance' element={<TattletaleToolPage/>}/>
