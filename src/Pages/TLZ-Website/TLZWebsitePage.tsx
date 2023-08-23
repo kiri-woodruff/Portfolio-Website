@@ -30,8 +30,6 @@ function TLZWebsitePage() {
                     <li>CSS/SCSS</li>
                     <li>React JS/TS</li>
                     <li>Keyframes</li>
-                    <li>Recharts Chart Library</li>
-                    <li>Pigeon Maps Library</li>
                 </ul>
             </div>
             <div>
@@ -41,7 +39,7 @@ function TLZWebsitePage() {
             </div>
             <div>
                 <h3>What It Is</h3>
-                <p>The Loading Zone is a program that is created by the Digital Corps as a means of teaching children
+                <p><a href='https://tlz.apsoprojects.org/' target="_blank" className='link-out'>The Loading Zone</a> is a program that is created by the Digital Corps as a means of teaching children
                     about different topics. </p>
             </div>
             <div className='images'>
