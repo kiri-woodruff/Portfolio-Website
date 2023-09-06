@@ -1,13 +1,12 @@
 .projects-page {
   background: linear-gradient(160deg, #101917, #f3f0ec);
   background-size: 400% 100%;
-
   animation: AnimationName 10s ease infinite;
+  min-height: 100vh;
 
   .projects-page-projects {
     display: flex;
     flex-flow: row wrap;
-
   }
 
   @keyframes AnimationName {
@@ -142,7 +141,7 @@
     height: 80%;
   }
 
-  .tlz-admin-home{
+  .tlz-admin-home {
     background: url("../../Assets/BillyPenelope.svg") center no-repeat;
     transform: translateX(29px);
     background-size: cover;
@@ -151,7 +150,7 @@
     height: 80%;
   }
 
-  .mmm-site-home{
+  .mmm-site-home {
     background: url("../../Assets/mmm-logo.jpg") center no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -170,7 +169,12 @@
       transform: translateY(0px);
     }
   }
-
+  @media (min-width: 2000px) {
+    .projects-page-projects {
+      width: 1300px;
+      margin: 0 auto;
+    }
+  }
 
   @media (min-width: 700px) and (max-width: 1100px) {
     background-size: 1200% 100%;
