@@ -48,6 +48,13 @@
     margin: 20px auto;
     font-size: 20px;
   }
+  
+  @media (min-width: 2000px) {
+    .images{
+      width: 2000px;
+      margin: 20px auto;
+    }
+  }
 
   @media (min-width: 700px) and (max-width: 1000px) {
     .images{
