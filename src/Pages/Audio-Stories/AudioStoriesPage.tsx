@@ -84,11 +84,11 @@ const AudioStoriesPage = () => {
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
-                    <Link to={'/tlz-website'}>
+                    <Link to={'/tlz-admin'}>
                         <div>
                             <img src={arrow}/>
                         </div>
-                        <label>The Loading Zone</label>
+                        <label>TLZ Admin Panel</label>
                     </Link>
                 </div>
                 <div className='right-arrow'>
