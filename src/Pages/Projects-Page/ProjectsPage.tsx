@@ -51,10 +51,10 @@ const ProjectsPage = () => {
                     <Link to={'/tlz-admin'} className='tlz-admin-home'/>
                     <Link to={'/tlz-admin'} className='projects-page-buttons'>The Loading Zone Admin</Link>
                 </div>
-                <div className='project'>
-                    <Link to={'/wiki-women'} className='wiki-women-home'/>
-                    <Link to={'/wiki-women'} className='projects-page-buttons'>Wiki Women</Link>
-                </div>
+                {/*<div className='project'>*/}
+                {/*    <Link to={'/wiki-women'} className='wiki-women-home'/>*/}
+                {/*    <Link to={'/wiki-women'} className='projects-page-buttons'>Wiki Women</Link>*/}
+                {/*</div>*/}
             </div>
             <div className='fix-footer'/>
         </div>

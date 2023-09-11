@@ -84,11 +84,11 @@ const AudioStoriesPage = () => {
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
-                    <Link to={'/wiki-women'} >
+                    <Link to={'/tlz-website'}>
                         <div>
                             <img src={arrow}/>
                         </div>
-                        <label>Wiki Women</label>
+                        <label>The Loading Zone</label>
                     </Link>
                 </div>
                 <div className='right-arrow'>

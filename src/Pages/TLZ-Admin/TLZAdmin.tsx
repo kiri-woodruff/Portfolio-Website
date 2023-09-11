@@ -63,8 +63,8 @@ function TLZAdmin() {
                     </Link>
                 </div>
                 <div className='right-arrow'>
-                    <Link to={'/wiki-women'}>
-                        <label>Wiki Women</label>
+                    <Link to={'/audio-stories'}>
+                        <label>Audio Stories Platform</label>
                         <div>
                             <img src={arrow}/>
                         </div>
