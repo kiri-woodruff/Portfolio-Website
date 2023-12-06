@@ -2,6 +2,8 @@ import './TLZWebsitePageStyling.scss'
 import {useLayoutEffect} from "react";
 import GridView from '../../Assets/LoadingZoneGridView.png';
 import ListView from '../../Assets/LoadingZoneListView.png'
+import Login from '../../Assets/TLZLogin.png'
+import VideoPlayer from '../../Assets/TLZVideo.png'
 import {Helmet, HelmetProvider} from "react-helmet-async";
 import {motion} from "framer-motion";
 import {Link} from "react-router-dom";
@@ -44,7 +46,7 @@ function TLZWebsitePage() {
                     about different topics. </p>
             </div>
             <div className='images'>
-                <Carousel images={[GridView, ListView]} />
+                <Carousel images={[Login, GridView, ListView, VideoPlayer]} />
             </div>
             <div>
                 <h3>What I Did</h3>

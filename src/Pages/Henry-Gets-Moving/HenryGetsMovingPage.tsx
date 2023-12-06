@@ -4,10 +4,15 @@ import {Helmet, HelmetProvider} from "react-helmet-async";
 import {motion} from "framer-motion";
 import {Link} from "react-router-dom";
 import arrow from "../../Assets/arrow.svg";
-import HGMCalendar from '../../Assets/HenryGetsMovingCalendar.png'
-import HGMExercise from '../../Assets/HenryGetsMovingExercisePage.png'
 import HGMHome from '../../Assets/HenryGetsMovingHomePage.png'
+import HGMMenu from '../../Assets/HGMMenu.png'
+import HGMLogin from '../../Assets/HGMLogin.png'
+import HGMRegister from '../../Assets/HGMRegister.png'
+import HGMExercise from '../../Assets/HenryGetsMovingExercisePage.png'
 import HGMLog from '../../Assets/HenryGetsMovingLogExercise.png'
+import HGMCalendar from '../../Assets/HenryGetsMovingCalendar.png'
+import HGMEdit from '../../Assets/HGMEdit.png'
+import HGMAbout from '../../Assets/HGMAbout.png'
 import HGMAdmin from '../../Assets/HenryGetsMovingAdmin.png'
 import Carousel from "../../Components/Carousel/Carousel";
 
@@ -52,7 +57,7 @@ const HenryGetsMovingPage = () => {
                 </p>
             </div>
             <div className='images'>
-                <Carousel images={[HGMHome, HGMExercise, HGMLog, HGMCalendar, HGMAdmin]} />
+                <Carousel images={[HGMHome, HGMMenu, HGMLogin, HGMRegister, HGMExercise, HGMLog, HGMCalendar, HGMEdit, HGMAbout, HGMAdmin]} />
             </div>
             <div>
                 <h3>What I Did</h3>

@@ -1,3 +1,28 @@
 .TLZWebsite{
-
+  .carousel-container{
+    width: 60%;
+    @media (min-width: 700px) and (max-width: 1000px){
+      width: 90%;
+    }
+    @media(max-width: 700px){
+      width: 95%;
+    }
+  }
+  .carousel{
+    width: 70%;
+    @media(max-width: 700px){
+      width: 70%;
+    }
+  }
+  button{
+    width: 10%;
+    @media (max-width: 700px) {
+      width: 15%;
+    }
+  }
+  @media (max-width: 700px) {
+    button:last-child {
+      transform: translateY(3.5vh) translateX(-3vw);
+    }
+  }
 }

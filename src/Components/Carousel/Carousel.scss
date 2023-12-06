@@ -29,9 +29,8 @@ button {
   top: 50%;
   transform: translateY(-50%);
   font-size: 18px;
-  padding: 10px;
   cursor: pointer;
-  width: 15%;
+  width: 10%;
   background-color: #f3f0ec;
   border: none;
   @media (max-width: 700px) {
@@ -40,7 +39,6 @@ button {
 }
 
 button:first-child {
-  left: 10px;
 }
 
 button:last-child {
