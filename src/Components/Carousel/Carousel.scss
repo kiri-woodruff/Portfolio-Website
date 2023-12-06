@@ -51,3 +51,21 @@ button:last-child {
     transform: translateY(5vh);
   }
 }
+
+.dot-container{
+  display: flex;
+  justify-content: center;
+  margin: 2em auto 0;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #555;
+}
