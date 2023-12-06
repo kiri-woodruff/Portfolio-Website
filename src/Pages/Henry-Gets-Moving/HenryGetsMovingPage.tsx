@@ -9,6 +9,7 @@ import HGMExercise from '../../Assets/HenryGetsMovingExercisePage.png'
 import HGMHome from '../../Assets/HenryGetsMovingHomePage.png'
 import HGMLog from '../../Assets/HenryGetsMovingLogExercise.png'
 import HGMAdmin from '../../Assets/HenryGetsMovingAdmin.png'
+import Carousel from "../../Components/Carousel/Carousel";
 
 const HenryGetsMovingPage = () => {
     useLayoutEffect(() => {
@@ -51,19 +52,7 @@ const HenryGetsMovingPage = () => {
                 </p>
             </div>
             <div className='images'>
-                <div className='desktop-images'>
-                    <div className='image-container'>
-                        <img src={HGMHome}/>
-                        <img src={HGMExercise}/>
-                    </div>
-                    <div className='image-container'>
-                        <img src={HGMLog}/>
-                        <img src={HGMCalendar}/>
-                    </div>
-                </div>
-                <div className='image-container'>
-                    <img src={HGMAdmin}/>
-                </div>
+                <Carousel images={[HGMHome, HGMExercise, HGMLog, HGMCalendar, HGMAdmin]} />
             </div>
             <div>
                 <h3>What I Did</h3>

@@ -8,6 +8,7 @@ import {Helmet, HelmetProvider} from "react-helmet-async";
 import {motion} from "framer-motion";
 import {Link} from "react-router-dom";
 import arrow from "../../Assets/arrow.svg";
+import Carousel from "../../Components/Carousel/Carousel";
 
 const MakeMyMove = () => {
     useLayoutEffect(() => {
@@ -70,10 +71,9 @@ const MakeMyMove = () => {
                 </p>
             </div>
             <div className='images'>
-                <img src={MMMCustomerType}/>
-                <img src={MMMActivityFeed}/>
-                <img src={MMMLeadsList}/>
+                <Carousel images={[MMMActivityFeed, MMMLeadsList, MMMCustomerType]} />
             </div>
+
             <div className='bottom-links'>
                 <div className='left-arrow'>
                     <Link to={'/henry-gets-moving'}>

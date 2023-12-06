@@ -6,6 +6,7 @@ import {Helmet, HelmetProvider} from "react-helmet-async";
 import {motion} from "framer-motion";
 import {Link} from "react-router-dom";
 import arrow from "../../Assets/arrow.svg";
+import Carousel from "../../Components/Carousel/Carousel";
 
 function TLZWebsitePage() {
     useLayoutEffect(() => {
@@ -43,8 +44,7 @@ function TLZWebsitePage() {
                     about different topics. </p>
             </div>
             <div className='images'>
-                <img src={GridView}/>
-                <img src={ListView}/>
+                <Carousel images={[GridView, ListView]} />
             </div>
             <div>
                 <h3>What I Did</h3>

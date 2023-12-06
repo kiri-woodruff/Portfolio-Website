@@ -11,7 +11,7 @@ function TLZAdmin() {
         window.scrollTo(0, 0)
     });
     return (
-        <motion.div className='TLZWebsite' initial={{opacity: 0, x: 100}} animate={{opacity: 1, x: 0}}
+        <motion.div className='TLZAdmin' initial={{opacity: 0, x: 100}} animate={{opacity: 1, x: 0}}
                     exit={{opacity: 0, x: -100}} transition={{duration: 0.5}}>
             <HelmetProvider>
                 <Helmet>

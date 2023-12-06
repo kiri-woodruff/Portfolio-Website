@@ -8,6 +8,7 @@ import {Helmet, HelmetProvider} from 'react-helmet-async';
 import {motion} from "framer-motion";
 import arrow from '../../Assets/arrow.svg'
 import {Link} from "react-router-dom";
+import Carousel from "../../Components/Carousel/Carousel";
 
 const AudioStoriesPage = () => {
     useLayoutEffect(() => {
@@ -57,14 +58,7 @@ const AudioStoriesPage = () => {
                 </p>
             </div>
             <div className='images'>
-                <div className='image-container'>
-                    <img src={AudioStoriesTopics}/>
-                    <img src={AudioStoriesPrompt}/>
-                </div>
-                <div className='image-container'>
-                    <img src={AudioStoriesSubmit}/>
-                    <img src={AudioStoriesRecord}/>
-                </div>
+                <Carousel images={[AudioStoriesTopics, AudioStoriesPrompt, AudioStoriesSubmit, AudioStoriesRecord]} />
             </div>
             <div>
                 <h3>What I Did</h3>

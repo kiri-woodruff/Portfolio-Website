@@ -17,6 +17,7 @@ import HenryGetsMovingPage from "./Pages/Henry-Gets-Moving/HenryGetsMovingPage";
 import {AnimatePresence} from "framer-motion";
 import TLZAdmin from "./Pages/TLZ-Admin/TLZAdmin";
 import MakeMyMove from "./Pages/MakeMyMove/makemymove";
+import CapTouchScreenPage from "./Pages/CapTouchScreen/CapTouchScreenPage";
 
 function App() {
     return (
@@ -38,6 +39,7 @@ function App() {
                         <Route path='/tlz-admin' element={<TLZAdmin/>}/>
                         <Route path='/classroom-assurance' element={<TattletaleToolPage/>}/>
                         <Route path='/wiki-women' element={<WikiWomenPage/>}/>
+                        <Route path='/cap-touch-screen' element={<CapTouchScreenPage/>}/>
                     </Routes>
                 </AnimatePresence>
                 {/*<Footer/>*/}

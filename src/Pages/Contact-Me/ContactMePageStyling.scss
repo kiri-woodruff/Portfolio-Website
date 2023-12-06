@@ -1,13 +1,12 @@
-.contact-me{
-  h1{
-    text-align: center;
-  }
-  .positioning{
-   display: flex;
+.contact-me {
+
+  .positioning {
+    display: flex;
     height: 50vh;
     align-items: center;
   }
-  .footer-icons{
+
+  .footer-icons {
     background-color: grey;
     display: flex;
     justify-content: center;
@@ -18,14 +17,21 @@
     border-radius: 20px;
     padding: 25px 0;
   }
-  .links{
+
+  .links {
     display: flex;
     justify-content: center;
-    a{
+
+    a {
       width: 30%;
     }
   }
-  a{
+
+  p {
+    font-size: 42px;
+  }
+
+  a {
     color: black;
     font-size: 2rem;
     font-weight: 500;
@@ -34,7 +40,8 @@
     margin: 0;
     padding: 0;
     text-decoration: underline;
-    &:hover{
+
+    &:hover {
       color: lightgrey;
       box-shadow: none;
     }
@@ -46,14 +53,15 @@
     margin: 10px 40px;
     max-width: 30%;
   }
-  a{
+
+  a {
     display: flex;
     justify-content: center;
   }
 
 
-  @media (min-width:600px) and (max-width: 850px) {
-    .footer-icons{
+  @media (min-width: 600px) and (max-width: 850px) {
+    .footer-icons {
       width: 80%;
     }
     img {
@@ -64,8 +72,8 @@
     }
   }
 
-  @media (max-width: 600px){
-    .footer-icons{
+  @media (max-width: 600px) {
+    .footer-icons {
       width: 80%;
       padding: 25px;
     }

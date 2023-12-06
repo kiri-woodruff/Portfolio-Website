@@ -8,6 +8,7 @@ import {Helmet, HelmetProvider} from "react-helmet-async";
 import {motion} from "framer-motion";
 import {Link} from "react-router-dom";
 import arrow from "../../Assets/arrow.svg";
+import Carousel from "../../Components/Carousel/Carousel";
 
 function TattletaleToolPage() {
 
@@ -51,14 +52,7 @@ function TattletaleToolPage() {
                     and each of their classes by section.</p>
             </div>
             <div className='images'>
-                <div className='image-container'>
-                    <img src={Buildings}/>
-                    <img src={Floors}/>
-                </div>
-                <div className='image-container'>
-                    <img src={Evaluation}/>
-                    <img src={Dashboard}/>
-                </div>
+                <Carousel images={[Buildings, Floors, Evaluation, Dashboard]} />
             </div>
             <div>
                 <h3>What I Did</h3>
@@ -68,11 +62,11 @@ function TattletaleToolPage() {
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
-                    <Link to={'/audio-stories-admin'}>
+                    <Link to={'/cap-touch-screen'}>
                         <div>
                             <img src={arrow}/>
                         </div>
-                        <label>Audio Stories Admin</label>
+                        <label>CAP Alumni Touch Screen</label>
                     </Link>
                 </div>
                 <div className='right-arrow'>

@@ -28,6 +28,10 @@ const ProjectsPage = () => {
                     <Link to={'/audio-stories-admin'} className='projects-page-buttons admin-button'>Audio Stories Admin</Link>
                 </div>
                 <div className='project'>
+                    <Link to={'/cap-touch-screen'} className='cap-touch-screen'/>
+                    <Link to={'/cap-touch-screen'} className='projects-page-buttons'>CAP Alumni Touch Screen</Link>
+                </div>
+                <div className='project'>
                     <Link to={'/classroom-assurance'} className='classroom-assurance-home'/>
                     <Link to={'/classroom-assurance'} className='projects-page-buttons'>Classroom Assurance</Link>
                 </div>

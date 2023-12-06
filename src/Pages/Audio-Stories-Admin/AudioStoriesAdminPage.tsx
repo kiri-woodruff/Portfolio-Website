@@ -6,7 +6,7 @@ import {Helmet, HelmetProvider} from 'react-helmet-async';
 import {motion} from "framer-motion";
 import {Link} from "react-router-dom";
 import arrow from "../../Assets/arrow.svg";
-
+import Carousel from "../../Components/Carousel/Carousel";
 const AudioStoriesAdminPage = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
@@ -48,8 +48,7 @@ const AudioStoriesAdminPage = () => {
                 </p>
             </div>
             <div className='images'>
-                <img className='topics-photo' src={AudioStoriesAdminManageTopics}/>
-                <img className='login-photo' src={AudioStoriesAdminLogin}/>
+                <Carousel images={[AudioStoriesAdminManageTopics, AudioStoriesAdminLogin]} />
             </div>
             <div>
                 <h3>What I Did</h3>
@@ -67,8 +66,8 @@ const AudioStoriesAdminPage = () => {
                     </Link>
                 </div>
                 <div className='right-arrow'>
-                    <Link to={'/classroom-assurance'}>
-                        <label>Classroom Assurance</label>
+                    <Link to={'/cap-touch-screen'}>
+                        <label>CAP Alumni Touch Screen</label>
                         <div>
                             <img src={arrow}/>
                         </div>

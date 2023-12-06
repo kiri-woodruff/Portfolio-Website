@@ -1,0 +1,53 @@
+.carousel-container {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+
+  @media (min-width: 700px) and (max-width: 1000px) {
+  width: 70%;
+  }
+
+  @media (max-width: 700px) {
+    width: 90%;
+  }
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 50%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+  width: 15%;
+  background-color: #f3f0ec;
+  border: none;
+  @media (max-width: 700px) {
+    width: 20%;
+  }
+}
+
+button:first-child {
+  left: 10px;
+}
+
+button:last-child {
+  right: 10px;
+  rotate: 180deg;
+  transform: translateY(6vh);
+  @media (max-width: 1000px) {
+    transform: translateY(5vh);
+  }
+}
