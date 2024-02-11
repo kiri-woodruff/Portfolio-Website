@@ -18,6 +18,7 @@ import {AnimatePresence} from "framer-motion";
 import TLZAdmin from "./Pages/TLZ-Admin/TLZAdmin";
 import MakeMyMove from "./Pages/MakeMyMove/makemymove";
 import CapTouchScreenPage from "./Pages/CapTouchScreen/CapTouchScreenPage";
+import ZoomRedirectPage from "./Pages/ZoomRediect/ZoomRedirectPage";
 
 function App() {
     return (
@@ -40,6 +41,7 @@ function App() {
                         <Route path='/classroom-assurance' element={<TattletaleToolPage/>}/>
                         <Route path='/wiki-women' element={<WikiWomenPage/>}/>
                         <Route path='/cap-touch-screen' element={<CapTouchScreenPage/>}/>
+                        <Route path='/zoom-redirect' element={<ZoomRedirectPage/>}/>
                     </Routes>
                 </AnimatePresence>
                 {/*<Footer/>*/}

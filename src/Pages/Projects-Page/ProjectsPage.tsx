@@ -59,6 +59,10 @@ const ProjectsPage = () => {
                 {/*    <Link to={'/wiki-women'} className='wiki-women-home'/>*/}
                 {/*    <Link to={'/wiki-women'} className='projects-page-buttons'>Wiki Women</Link>*/}
                 {/*</div>*/}
+                <div className='project'>
+                    <Link to={'/zoom-redirect'} className='zoom-redirect-home'/>
+                    <Link to={'/zoom-redirect'} className='projects-page-buttons'>Zoom Redirect Page</Link>
+                </div>
             </div>
             <div className='fix-footer'/>
         </div>

@@ -63,8 +63,8 @@ function TLZAdmin() {
                     </Link>
                 </div>
                 <div className='right-arrow'>
-                    <Link to={'/audio-stories'}>
-                        <label>Audio Stories Platform</label>
+                    <Link to={'/zoom-redirect'}>
+                        <label>Zoom Redirect Page</label>
                         <div>
                             <img src={arrow}/>
                         </div>

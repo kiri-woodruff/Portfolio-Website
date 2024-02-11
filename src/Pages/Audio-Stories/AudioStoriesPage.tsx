@@ -78,11 +78,11 @@ const AudioStoriesPage = () => {
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
-                    <Link to={'/tlz-admin'}>
+                    <Link to={'/zoom-redirect'}>
                         <div>
                             <img src={arrow}/>
                         </div>
-                        <label>TLZ Admin Panel</label>
+                        <label>Zoom Redirect Page</label>
                     </Link>
                 </div>
                 <div className='right-arrow'>

@@ -164,6 +164,12 @@
     height: 80%;
   }
 
+  .zoom-redirect-home {
+    background: url("../../Assets/ZoomRedirectHome.png") center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 80%;
+  }
 
   @keyframes moveInBottom {
     0% {
