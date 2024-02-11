@@ -23,12 +23,13 @@ const AboutPage = () => {
                     </p>
                     <p>
                         I work at the Digital Corps at Ball State, where we work in interdisciplinary teams to create
-                        web
-                        applications and other digital products for clients.
+                        web applications and other digital products for clients.
                     </p>
                     <p className='what-i-am'>
-                        At the Digital Corps, I am currently a Development Master and a Junior Project Manager. What I
-                        do is be a leader and spokesperson of the Corps and I aid in the management of projects.
+                        I am about to graduate from college and am extremely passionate about frontend web development
+                        with a specialty in frontend styling using CSS and SCSS. I am also a very social person and have
+                        used the skills in a personal and professional manner with relationship building and public
+                        speaking respectively.
                     </p>
                 </div>
             </div>
