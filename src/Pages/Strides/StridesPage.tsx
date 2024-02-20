@@ -57,16 +57,16 @@ const StridesPage = () => {
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
-                    <Link to={'/tlz-website'}>
+                    <Link to={'/makemymove'}>
                         <div>
                             <img src={arrow}/>
                         </div>
-                        <label>The Loading Zone</label>
+                        <label>MakeMyMove</label>
                     </Link>
                 </div>
                 <div className='right-arrow'>
-                    <Link to={'/zoom-redirect'}>
-                        <label>Zoom Redirect Page</label>
+                    <Link to={'/tlz-website'}>
+                        <label>The Loading Zone</label>
                         <div>
                             <img src={arrow}/>
                         </div>
