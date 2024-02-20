@@ -171,6 +171,20 @@
     height: 80%;
   }
 
+  .color-by-number-home {
+    background: url("../../Assets/MUTTColorByNumberHome.png") center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 80%;
+  }
+
+  .strides-home {
+    background: url("../../Assets/StridesHome.png") center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 80%;
+  }
+
   @keyframes moveInBottom {
     0% {
       opacity: 0;

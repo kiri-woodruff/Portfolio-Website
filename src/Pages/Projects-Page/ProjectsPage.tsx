@@ -36,6 +36,10 @@ const ProjectsPage = () => {
                     <Link to={'/classroom-assurance'} className='projects-page-buttons'>Classroom Assurance</Link>
                 </div>
                 <div className='project'>
+                    <Link to={'/color-by-number'} className='color-by-number-home'/>
+                    <Link to={'/color-by-number'} className='projects-page-buttons'>Color By Number</Link>
+                </div>
+                <div className='project'>
                     <Link to={'/corps-recruitment'} className='application-site-home'/>
                     <Link to={'/corps-recruitment'} className='projects-page-buttons'>Corps Recruitment</Link>
                 </div>
@@ -46,6 +50,10 @@ const ProjectsPage = () => {
                 <div className='project'>
                     <Link to={'/makemymove'} className='mmm-site-home'/>
                     <Link to={'/makemymove'} className='projects-page-buttons'>MakeMyMove</Link>
+                </div>
+                <div className='project'>
+                    <Link to={'/strides'} className='strides-home'/>
+                    <Link to={'/strides'} className='projects-page-buttons'>STRIDeS</Link>
                 </div>
                 <div className='project'>
                     <Link to={'/tlz-website'} className='tlz-website-home'/>

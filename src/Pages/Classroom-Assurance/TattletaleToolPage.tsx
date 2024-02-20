@@ -70,8 +70,8 @@ function TattletaleToolPage() {
                     </Link>
                 </div>
                 <div className='right-arrow'>
-                    <Link to={'/corps-recruitment'}>
-                        <label>Corps Recruitment</label>
+                    <Link to={'/color-by-number'}>
+                        <label>Color By Number</label>
                         <div>
                             <img src={arrow}/>
                         </div>

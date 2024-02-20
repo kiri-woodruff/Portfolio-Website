@@ -1,5 +1,20 @@
 .zoom-redirect{
+  .carousel-container{
+    width: 70%;
+
+  }
+  button{
+    width: 10%;
+  }
   h3{
     max-width: 100%;
+  }
+  @media (max-width: 700px) {
+    .carousel-container {
+      width: 90%;
+    }
+    button{
+      width: 15%;
+    }
   }
 }

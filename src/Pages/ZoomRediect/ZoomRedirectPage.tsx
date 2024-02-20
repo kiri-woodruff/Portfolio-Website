@@ -48,7 +48,8 @@ const ZoomRedirectPage = () => {
                 plugged in, and to turn off your camera.
             </p>
             <div className='images'>
-                <Carousel images={[ZoomRedirectLanding, ZoomRedirectLanding2, ZoomRedirectGrid, ZoomRedirectTablet, ZoomRedirectPhone]}/>
+                <Carousel
+                    images={[ZoomRedirectLanding, ZoomRedirectLanding2, ZoomRedirectGrid, ZoomRedirectTablet, ZoomRedirectPhone]}/>
             </div>
             <p>
                 <h3>What I Did</h3>
@@ -56,8 +57,9 @@ const ZoomRedirectPage = () => {
                 like the background gradient, the background location images, and the footer logo image. I was also
                 responsible for making the page dynamic and so I used media queries to style the landing page for
                 phones, tablets, desktops, and large monitors. Since this was a static, single page, the project turn
-                around was very quick and the page was entirely styled in 3 hours. After there were design changes, they
-                took about 15 minutes to implement.
+                around was very quick and the page was entirely styled in 3 hours. After the first round of review,
+                there were design changes and they took about 15 minutes to implement. After the second round of review,
+                there were spacing changes that I implemented live in the meeting.
             </p>
 
             <div className='bottom-links'>

@@ -63,11 +63,11 @@ const CorpsRecruitmentPage = () => {
             </div>
             <div className='bottom-links'>
                 <div className='left-arrow'>
-                    <Link to={'/classroom-assurance'}>
+                    <Link to={'/color-by-number'}>
                         <div>
                             <img src={arrow}/>
                         </div>
-                        <label>Classroom Assurance</label>
+                        <label>Color By Number</label>
                     </Link>
                 </div>
                 <div className='right-arrow'>

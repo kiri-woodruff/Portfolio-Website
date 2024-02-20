@@ -84,8 +84,8 @@ const MakeMyMove = () => {
                     </Link>
                 </div>
                 <div className='right-arrow'>
-                    <Link to={'/tlz-website'}>
-                        <label>The Loading Zone</label>
+                    <Link to={'/strides'}>
+                        <label>STRIDeS</label>
                         <div>
                             <img src={arrow}/>
                         </div>

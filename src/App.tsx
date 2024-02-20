@@ -19,6 +19,8 @@ import TLZAdmin from "./Pages/TLZ-Admin/TLZAdmin";
 import MakeMyMove from "./Pages/MakeMyMove/makemymove";
 import CapTouchScreenPage from "./Pages/CapTouchScreen/CapTouchScreenPage";
 import ZoomRedirectPage from "./Pages/ZoomRediect/ZoomRedirectPage";
+import ColorByNumberPage from "./Pages/ColorByNumber/ColorByNumberPage";
+import StridesPage from "./Pages/Strides/StridesPage";
 
 function App() {
     return (
@@ -42,6 +44,8 @@ function App() {
                         <Route path='/wiki-women' element={<WikiWomenPage/>}/>
                         <Route path='/cap-touch-screen' element={<CapTouchScreenPage/>}/>
                         <Route path='/zoom-redirect' element={<ZoomRedirectPage/>}/>
+                        <Route path='/color-by-number' element={<ColorByNumberPage/>}/>
+                        <Route path='/strides' element={<StridesPage/>}/>
                     </Routes>
                 </AnimatePresence>
                 {/*<Footer/>*/}
