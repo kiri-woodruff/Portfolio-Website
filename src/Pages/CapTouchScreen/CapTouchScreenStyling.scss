@@ -1,4 +1,11 @@
 .cap-touch-screen {
+  .images {
+    flex-direction: column;
+  }
 
-
+  .after {
+    .carousel{
+      width: 70%;
+    }
+  }
 }

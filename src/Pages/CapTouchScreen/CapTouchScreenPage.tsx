@@ -5,6 +5,11 @@ import NameFilter from '../../Assets/CapNameFilter.png';
 import YearFilter from '../../Assets/CapYearFilter.png';
 import AwardWithPhotos from '../../Assets/CapPersonWithPhotos.png'
 import AwardWithoutPhotos from '../../Assets/CapPersonWithoutPhotos.png';
+import Home from '../../Assets/CAPHome.png';
+import Browse from '../../Assets/CAPBrowse.png';
+import Filter from '../../Assets/CAPFilter.png';
+import AwardPage from '../../Assets/CAPAward.png';
+import AwardCategories from '../../Assets/CAPAwardCategories.png';
 import {useLayoutEffect} from "react";
 import {Helmet, HelmetProvider} from 'react-helmet-async';
 import {motion} from "framer-motion";
@@ -64,11 +69,15 @@ const CapTouchScreenPage = () => {
 
                 </p>
             </div>
-            <div className='images'>
+            <div className='images after'>
+                <h3>Final Design</h3>
+                <Carousel images={[Home, Browse, Filter, AwardPage, AwardCategories]}/>
+            </div>
+            <div className='images before'>
+                <h3>Initial Design</h3>
                 <Carousel
                     images={[AwardWithPhotos, AwardWithoutPhotos, AwardFilter, DecadeFilter, YearFilter, NameFilter]}/>
             </div>
-
             <div>
                 <h3>What I Did</h3>
                 <p>
@@ -79,7 +88,14 @@ const CapTouchScreenPage = () => {
                     filter pages was using different map functions to get the specific information based on the filter
                     that was chosen. On the award pages, a person could have either photos of their work or additional
                     information, so I made components for both and called the respective one depending on their content
-                    type. For the displaying of the photos, I utilized photo clipping .
+                    type. For the displaying of the photos, I utilized photo clipping.
+                </p>
+                <p>
+                    When the client wanted design revisions, I was responsible for doing all of page revisions. Since
+                    the functionality was already there, I had to change the pages per the client's designs. There were a few
+                    functionality change that I implemented. One of which was automatically filtering the browse feed by the
+                    award category selected from the award categories page. The other functionality change was the arrows on the bottom
+                    of the award pages also set up to go to the next person in the respective award.
                 </p>
             </div>
             <div className='bottom-links'>

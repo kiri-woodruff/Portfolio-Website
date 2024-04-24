@@ -4,9 +4,9 @@ import {motion} from "framer-motion";
 import {Helmet, HelmetProvider} from "react-helmet-async";
 import ZoomRedirectLanding from "../../Assets/ZoomRedirectLanding.png";
 import ZoomRedirectLanding2 from '../../Assets/ZoomRedirectLanding2.png';
+import ZoomRedirectLanding3 from '../../Assets/ZoomRedirectLanding3.png';
+import ZoomRedirectLanding4 from '../../Assets/ZoomRedirectLanding4.png';
 import ZoomRedirectGrid from '../../Assets/ZoomRedirectGrid.png';
-import ZoomRedirectPhone from '../../Assets/ZoomRedirectPhone.png';
-import ZoomRedirectTablet from '../../Assets/ZoomRedirectTablet.png';
 import {Link} from "react-router-dom";
 import arrow from "../../Assets/arrow.svg";
 import Carousel from "../../Components/Carousel/Carousel";
@@ -33,6 +33,8 @@ const ZoomRedirectPage = () => {
                     <li>React</li>
                     <li>TypeScript</li>
                     <li>CSS</li>
+                    <li>OpenWeather API</li>
+                    <li>RSS Feed</li>
                 </ul>
             </div>
             <p>
@@ -49,17 +51,17 @@ const ZoomRedirectPage = () => {
             </p>
             <div className='images'>
                 <Carousel
-                    images={[ZoomRedirectLanding, ZoomRedirectLanding2, ZoomRedirectGrid, ZoomRedirectTablet, ZoomRedirectPhone]}/>
+                    images={[ZoomRedirectLanding4, ZoomRedirectLanding, ZoomRedirectLanding2, ZoomRedirectLanding3, ZoomRedirectGrid]}/>
             </div>
             <p>
                 <h3>What I Did</h3>
                 I was responsible for all the styling of the landing page. I imported all the needed assets from Figma
                 like the background gradient, the background location images, and the footer logo image. I was also
                 responsible for making the page dynamic and so I used media queries to style the landing page for
-                phones, tablets, desktops, and large monitors. Since this was a static, single page, the project turn
-                around was very quick and the page was entirely styled in 3 hours. After the first round of review,
-                there were design changes and they took about 15 minutes to implement. After the second round of review,
-                there were spacing changes that I implemented live in the meeting.
+                phones, tablets, desktops, and large monitors. I implemented all of the design revisions that were
+                requested from out client. I used the OpenWeather API to get the weather for Muncie, Indiana where Ball
+                State University is located. I also implemented a news feed which pulls from the Ball State University
+                Communication Center's RSS feed.
             </p>
 
             <div className='bottom-links'>
