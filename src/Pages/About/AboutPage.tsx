@@ -19,7 +19,7 @@ const AboutPage = () => {
                 </div>
                 <div className='about-me'>
                     <p>
-                        I'm a recent graduate of Ball State University having earned a Bachelor's of Science with a
+                        I'm a graduate of Ball State University having earned a Bachelor's of Science with a
                         major in Computer Science and a minor in Sociology.
                     </p>
                     <p>
@@ -29,13 +29,15 @@ const AboutPage = () => {
                     <p className='what-i-am'>
                         I am extremely passionate about frontend development having worked with primarily React.js,
                         TypeScript, and WordPress and I have a specialty in SCSS/CSS styling. I also have work experience in
-                        backend development working with Adonis.js,
-                        Docker, and AWS and I am open to learning even more!
+                        backend development working with Adonis.js, Docker, and AWS and I am open to learning even more!
                     </p>
                 </div>
             </div>
         </motion.div>
     )
 }
-
+<html>
+<body></body>
+<head></head>
+</html>
 export default AboutPage;
